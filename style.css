@@ -336,6 +336,7 @@ html {
     width: 100vw;
     background-repeat: no-repeat; 
     height: 25vh;
+    background-size: contain;
  }
   .first-block-head {
     display: flex;
@@ -393,7 +394,7 @@ html {
      width: 100vw;
      height: 25vh;
      background-repeat: no-repeat;
-     
+     background-size: contain;
   }
   .second-block-main {
     display: flex;
