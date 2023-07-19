@@ -98,8 +98,6 @@ html {
    margin: 0 auto;
    background-repeat: no-repeat;
    background-size: cover;
-   background-position-x: center;
-   background-position-y: center;
 }
 .second-block-main {
   display: flex;
@@ -148,8 +146,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover; 
   display: flex;
-  background-position-x: center;
-  background-position-y: center;
   justify-content: center;
 }
 .third-block-main p {
@@ -338,14 +334,14 @@ html {
   .first-block {
     background-image: url("/image/Frame\ 23.jpg");
     width: 100vw;
-    background-repeat: no-repeat;
-    background-size: contain; 
+    background-repeat: no-repeat; 
+    height: 25vh;
  }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 12px 20px 0 20px;
+    padding: 12px 30px 0 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -392,52 +388,150 @@ html {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  /* .second-block {
+  .second-block {
     background-image: url("/image/Frame\ 31.jpg");
      width: 100vw;
-     margin: 0 auto;
+     height: 25vh;
      background-repeat: no-repeat;
-     background-size: contain;
-     background-position-x: center;
-     background-position-y: center;
+     
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 250px 0;
-    margin: 0 auto;
+    padding: 10px 0;
+    margin: 0;
     max-width: 400px; 
-    margin: 0 20px 0 20px;
+    margin: 0 20px 0 220px;
   }
   .second-block-main h2 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 20px;
     color: #280309;
-    margin-block-end: 50px;
+    margin-block-start: 30px;
+    margin-block-end: 20px;
   }
   
   .second-block-main p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 400;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     margin-block-start: 0;
-    margin-block-end: 76px;
+    margin-block-end: 20px;
   }
-  .third-block {
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 10px 20px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+   .third-block {
     background-image: url("/image/Frame\ 33.jpg");
     width: 100vw;
-    margin: 0 auto;
+
+    padding-top: 200px;
     background-repeat: no-repeat;
-    background-size: contain; 
     display: flex;
-    background-position-x: center;
-    background-position-y: center;
     justify-content: center;
-  } */
+  }  
+  .third-block-main p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 48px 0 24px 0;
+    margin: 0 60px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 350px;
+    height: 725px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 650px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 40px 0px 15px 25px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 4px 0px;
+  }
+  .form-group input {
+    width: 270px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #ececec;
+    padding: 0 16px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 32px;
+    padding: 0px 24px;
+    color: white;
+    width: 224px;
+    height: 64px;
+    border: 1px solid #ff6381;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 270px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #ececec;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 16px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
 }
 
 

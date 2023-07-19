@@ -1,16 +1,13 @@
 const spreadsheetId = '1mvjzroCKQEKnzbUPpU9KGqlre_rBw6Qom6Uf-AkLwn8';
 const submitButton = document.getElementById('submitButton');
 
-function onSignIn(googleUser) {
-    const idToken = googleUser.getAuthResponse().id_token;
-    const submitButton = document.getElementById('submitButton');
-    submitButton.addEventListener('click', (event) => {
-        event.preventDefault();
-        handleFormSubmit(idToken);
-    });
-}
+var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('track');
 
-submitButton.addEventListener('click', handleFormSubmit);
+function doPost(e) {
+  var params = JSON.parse(e.postData.contents);
+  sheet.appendRow([new Date(), params.page]);
+  return ContentService.createTextOutput(JSON.stringify({ 'result': 'success', 'row': params }));
+}
 
 function handleFormSubmit(event) {
   event.preventDefault();
@@ -18,7 +15,7 @@ function handleFormSubmit(event) {
   const formData = {
     gender: document.getElementById('genderSelect').value,
     lookingForGender: document.getElementById('genderSelect2').value,
-    payer: document.getElementById('input3').value,
+    payer: document.getElementById('genderSelect3').value,
     location: document.getElementById('input4').value,
     birthdate: document.getElementById('input5').value,
     email: document.getElementById('input6').value
