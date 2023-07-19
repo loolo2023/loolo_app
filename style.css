@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "Noto Sans Hebrew";
+  src: url("fonts/Noto_Sans_Hebrew/NotoSansHebrew-VariableFont_wdth\,wght.ttf")
+    format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rokkitt";
+  src: url("fonts/Rokkitt/Rokkitt-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+.first-block {
+   background-image: url("/image/Frame\ 23.jpg");
+   height: 130vh;
+   width: 100vw;
+   margin: 0 auto;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+.first-block-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 80px 0 80px;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  color: #280309;
+  font-weight: 400;
+}
+.first-block-head div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+}
+.first-block-head div:nth-child(1) p {
+  font-size: 24px;
+}
+.first-block-head div:nth-child(2) p {
+  font-size: 16px;
+}
+.first-block-head div:nth-child(2) p:nth-child(2) {
+  padding-left: 10px;
+}
+
+.first-block-main {
+  font-family: "Rokkitt", sans-serif;
+  margin: 400px 80px 0 80px;
+}
+.first-block-main h1 {
+  font-size: 90px;
+  line-height: 0px;
+  margin-block-end: 40px;
+  font-weight: 900;
+}
+.first-block-main p {
+  font-size: 55px;
+  margin-right: 1150px;
+  line-height: 58px;
+  margin-block-start: 0;
+  margin-block-end: 30px;
+  font-weight: 900;
+}
+.first-block-main button {
+  color: white;
+  background-color: #ff6381;
+  padding: 15px 24px;
+  border: 1px solid #ff6381;
+  border-radius: 30px;
+  width: 230px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  font-weight: 500;
+}
+.second-block {
+  background-image: url("/image/Frame\ 31.jpg");
+   height: 120vh;
+   width: 100vw;
+   margin: 0 auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.second-block-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0;
+  margin: 0 auto;
+  max-width: 800px; 
+  margin: 0 300px 0 1000px;
+}
+
+.second-block-main h2 {
+  font-family: "Rokkitt", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  color: #280309;
+  margin-block-end: 50px;
+}
+
+.second-block-main p {
+  font-family: "Noto Sans Hebrew", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 24px;
+  margin-block-start: 0;
+  margin-block-end: 76px;
+}
+
+.second-block-main button {
+  color: white;
+  background-color: #ff6381;
+  padding: 15px 24px;
+  border: 1px solid #ff6381;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  font-weight: 500;
+  margin-left: 400px;
+}
+.third-block {
+  background-image: url("/image/Frame\ 33.jpg");
+  height: 120vh;
+  width: 100vw;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+}
+.third-block-main p {
+  color: #000;
+  font-family: "Rokkitt", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 48px 0 24px 0;
+  margin: 0 80px;
+}
+#contactForm {
+  background-image: url("/image/Group\ 16.png");
+  width: 510px;
+  height: 725px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #dec1c7;
+  border-radius: 30px;
+}
+.form-inputs {
+  background-color: #fbfbfb;
+  height: 650px;
+  width: 400px;
+  border-radius: 30px;
+  position: absolute;
+  margin: 40px 64px 15px 55px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+.form-group label {
+  color: #000;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  padding: 4px 0px;
+}
+.form-group input {
+  width: 317px;
+  height: 40px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 4px 10px 0px #ececec;
+  border: 1px solid #ececec;
+  padding: 0 16px;
+}
+
+.form-inputs button {
+  border-radius: 30px;
+  background: #ff6381;
+  margin-top: 32px;
+  padding: 0px 24px;
+  color: white;
+  width: 224px;
+  height: 64px;
+  border: 1px solid #ff6381;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.form-group select {
+  width: 317px;
+  height: 40px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 4px 10px 0px #ececec;
+  border: 1px solid #ececec;
+  padding: 0 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("/image/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+.form-group select option {
+  color: #000;
+  background: white;
+  cursor: pointer;
+}
