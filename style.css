@@ -717,6 +717,7 @@ html {
     background-image: url("/image/Frame\ 23.jpg");
     width: 100vw;
     background-repeat: no-repeat; 
+    background-position: center;
     height: 25vh;
  }
   
@@ -757,7 +758,7 @@ html {
      width: 100vw;
      height: 25vh;
      background-repeat: no-repeat;
-
+     background-position: center;
   }
   .second-block-main {
     display: flex;
