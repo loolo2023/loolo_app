@@ -36,6 +36,8 @@ html {
    margin: 0 auto;
    background-repeat: no-repeat;
    background-size: cover; 
+   background-position-x: center;
+   background-position-y: center;
 }
 .first-block-head {
   display: flex;
@@ -97,6 +99,8 @@ html {
    margin: 0 auto;
    background-repeat: no-repeat;
    background-size: cover;
+   background-position-x: center;
+   background-position-y: center;
 }
 .second-block-main {
   display: flex;
@@ -145,6 +149,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover; 
   display: flex;
+  background-position-x: center;
+  background-position-y: center;
   justify-content: center;
 }
 .third-block-main p {
