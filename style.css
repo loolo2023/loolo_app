@@ -179,7 +179,7 @@ main {
   flex-direction: column;
   align-items: end;
   justify-content: end;
-  max-width: 497px;
+  max-width: 457px;
   margin-right: 159px;
 }
 
@@ -204,9 +204,11 @@ main {
 .second-block-main button {
   color: white;
   background-color: #ff6381;
-  padding: 15px 24px;
+  padding: 8px 24px;
   border: 1px solid #ff6381;
   border-radius: 30px;
+  width: 224px;
+  height: 64px;
   cursor: pointer;
   font-size: 24px;
   font-family: "Noto Sans Hebrew", sans-serif;
@@ -281,7 +283,7 @@ form p {
   font-weight: 500;
   font-family: "Noto Sans Hebrew", sans-serif;
   position: absolute;
-  bottom: 32px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
@@ -308,4 +310,1010 @@ form p {
   color: #000;
   background: white;
   cursor: pointer;
+}
+@media only screen and (min-width: 450px) and (max-width: 590px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 140px 40px 0 40px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 18px 40px 0 40px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 14px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 10px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 26px;
+    line-height: 0px;
+    margin-block-end: 14px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-block-start: 0;
+    margin-block-end: 10px;
+    font-weight: 900;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 14px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 300px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 230px;
+    margin-right: 30px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+    margin-block-start: 0;
+    margin-block-end: 18px;
+  }
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 14px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .third-block {
+    margin-top: 103px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 64px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 400px;
+    height: 500px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 8px 40px 8px 52px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 0;
+  }
+  .form-group input {
+    width: 240px;
+    height: 24px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 240px;
+    height: 24px;
+    padding: 0 16px;
+    background-position: right 16px center;
+    background-size: 12px;
+  }
+  }
+@media only screen and (min-width: 591px) and (max-width: 682px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 140px 40px 0 40px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 18px 40px 0 40px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 16px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 12px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 30px;
+    line-height: 0px;
+    margin-block-end: 18px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-block-start: 0;
+    margin-block-end: 12px;
+    font-weight: 900;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 14px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 300px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 250px;
+    margin-right: 50px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+    margin-block-start: 0;
+    margin-block-end: 18px;
+  }
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 14px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .third-block {
+    margin-top: 103px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 64px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 400px;
+    height: 500px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 8px 40px 8px 52px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 0;
+  }
+  .form-group input {
+    width: 240px;
+    height: 24px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 240px;
+    height: 24px;
+    padding: 0 16px;
+    background-position: right 16px center;
+    background-size: 12px;
+  }
+  }
+@media only screen and (min-width: 683px) and (max-width: 776px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 140px 40px 0 40px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 18px 40px 0 40px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 16px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 12px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 36px;
+    line-height: 0px;
+    margin-block-end: 22px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 22px;
+    line-height: 28px;
+    margin-block-start: 0;
+    margin-block-end: 16px;
+    font-weight: 900;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 14px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 280px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 280px;
+    margin-right: 70px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 14px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .third-block {
+    margin-top: 103px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 64px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 400px;
+    height: 500px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 8px 40px 8px 52px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 0;
+  }
+  .form-group input {
+    width: 240px;
+    height: 24px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 240px;
+    height: 24px;
+    padding: 0 16px;
+    background-position: right 16px center;
+    background-size: 12px;
+  }
+  }
+@media only screen and (min-width: 767px) and (max-width: 884px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 150px 40px 0 40px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 18px 40px 0 40px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 16px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 12px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 40px;
+    line-height: 0px;
+    margin-block-end: 30px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 26px;
+    line-height: 28px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+    font-weight: 900;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 12px 20px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 184px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 280px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 300px;
+    margin-right: 90px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 12px 20px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 184px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .third-block {
+    margin-top: 103px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 64px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 400px;
+    height: 500px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 8px 40px 8px 52px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 0;
+  }
+  .form-group input {
+    width: 240px;
+    height: 24px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 240px;
+    height: 24px;
+    padding: 0 16px;
+    background-position: right 16px center;
+    background-size: 12px;
+  }
+  }
+  @media only screen and (min-width: 885px) and (max-width: 949px) {
+    .first-block-main {
+      margin: 180px 60px 0 60px;
+      color: #280309;
+    }
+    .first-block-head {
+      padding: 24px 60px 0 60px;
+    }
+    .first-block-head div:nth-child(1) p {
+      font-size: 18px;
+    }
+    .first-block-head div:nth-child(2) p {
+      font-size: 14px;
+    }
+    .first-block-head div:nth-child(2) p:nth-child(2) {
+      padding-left: 8px;
+    }
+    .first-block-main h1 {
+      font-size: 40px;
+      line-height: 0px;
+      margin-block-end: 26px;
+      font-weight: 900;
+    }
+    .first-block-main p {
+      font-size: 22px;
+      line-height: 28px;
+      margin-block-start: 0;
+      margin-block-end: 20px;
+      font-weight: 900;
+    }
+    .first-block-main button {
+      color: white;
+      background-color: #ff6381;
+      padding: 12px 20px;
+      border: 1px solid #ff6381;
+      border-radius: 30px;
+      width: 184px;
+      height: 54px;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: "Noto Sans Hebrew", sans-serif;
+      font-weight: 500;
+    }
+    .second-block {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: end;
+      margin-top: 380px;
+    }
+    .second-block-main {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: end;
+      max-width: 350px;
+      margin-right: 90px;
+    }
+    
+    .second-block-main h2 {
+      font-family: "Rokkitt", sans-serif;
+      font-weight: 900;
+      font-size: 36px;
+      color: #280309;
+      margin-block-start: 0px;
+      margin-block-end: 30px;
+    }
+    
+    .second-block-main p {
+      font-family: "Noto Sans Hebrew", sans-serif;
+      font-weight: 500;
+      color: #000;
+      font-size: 18px;
+      margin-block-start: 0;
+      margin-block-end: 20px;
+    }
+    .second-block-main button {
+      color: white;
+      background-color: #ff6381;
+      padding: 12px 20px;
+      border: 1px solid #ff6381;
+      border-radius: 30px;
+      width: 184px;
+      height: 54px;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: "Noto Sans Hebrew", sans-serif;
+      font-weight: 500;
+    }
+    .third-block {
+      margin-top: 103px;
+      padding-bottom: 18px;
+    }
+    form p {
+      color: #000;
+      font-family: "Rokkitt", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      padding: 18px 72px;
+    }
+    #contactForm {
+      background-image: url("/image/Group\ 16.png");
+      width: 453px;
+      height: 620px;
+    }
+    .form-inputs {
+      background-color: #fbfbfb;
+      height: 500px;
+      width: 300px;
+      border-radius: 30px;
+      position: absolute;
+      margin: 8px 50px 8px 74px;
+    }
+    .form-group label {
+      color: #000;
+      font-family: "Noto Sans Hebrew", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: normal;
+      padding: 10px 0px 4px 0;
+    }
+    .form-group input {
+      width: 260px;
+      height: 28px;
+    }
+    
+    .form-inputs button {
+      color: white;
+      background-color: #ff6381;
+      padding: 8px 24px;
+      border: 1px solid #ff6381;
+      border-radius: 30px;
+      width: 164px;
+      height: 44px;
+      cursor: pointer;
+      font-size: 18px;
+      font-family: "Noto Sans Hebrew", sans-serif;
+      font-weight: 500;
+    }
+    
+    .form-group select {
+      width: 260px;
+      height: 32px;
+     
+    }
+  }
+  
+@media only screen and (min-width: 950px) and (max-width: 1139px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 200px 80px 0 80px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 24px 80px 0 80px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 18px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 14px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 44px;
+    line-height: 0px;
+    margin-block-end: 30px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 26px;
+    line-height: 28px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+    font-weight: 900;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 164px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 380px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 350px;
+    margin-right: 109px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 30px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .third-block {
+    margin-top: 103px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px 72px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 453px;
+    height: 620px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 8px 50px 8px 74px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 0;
+  }
+  .form-group input {
+    width: 260px;
+    height: 28px;
+  }
+  
+  .form-inputs button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 164px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  }
+
+@media only screen and (min-width: 1140px) and (max-width: 1480px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 200px 80px 0 80px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 60px;
+    line-height: 0px;
+    margin-block-end: 40px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 40px;
+    line-height: 58px;
+    margin-block-start: 0;
+    margin-block-end: 30px;
+    font-weight: 900;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 380px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 407px;
+    margin-right: 109px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 30px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .third-block {
+    margin-top: 203px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 18px 72px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 453px;
+    height: 720px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 548px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 24px 66px 24px 82px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 0;
+  }
+  .form-group input {
+    width: 260px;
+    height: 32px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 180px;
+    height: 52px;
+    border: 1px solid #ff6381;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 260px;
+    height: 32px;
+   
+  }
 }
