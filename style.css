@@ -36,8 +36,7 @@ html {
    margin: 0 auto;
    background-repeat: no-repeat;
    background-size: cover; 
-   background-position-x: center;
-   background-position-y: center;
+   
 }
 .first-block-head {
   display: flex;
@@ -339,7 +338,6 @@ html {
   .first-block {
     background-image: url("/image/Frame\ 23.jpg");
     width: 100vw;
-    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: contain; 
  }
@@ -364,36 +362,37 @@ html {
   
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 200px 20px 0 20px;
+    margin: 50px 20px 0 20px;
   }
   .first-block-main h1 {
     font-size: 24px;
     line-height: 0px;
-    margin-block-end: 40px;
+    margin-block-end: 10px;
     font-weight: 900;
   }
   .first-block-main p {
     font-size: 20px;
-    margin-right: 0px;
-    line-height: 48px;
+    margin-right: 150px;
+    line-height: 20px;
     margin-block-start: 0;
-    margin-block-end: 30px;
+    margin-block-end: 0px;
     font-weight: 900;
+    padding-bottom: 40px;
   }
 
   .first-block-main button {
     color: white;
     background-color: #ff6381;
-    padding: 15px 20px;
+    padding: 10px 10px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 180px;
+    width: 120px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block {
+  /* .second-block {
     background-image: url("/image/Frame\ 31.jpg");
      width: 100vw;
      margin: 0 auto;
@@ -438,7 +437,7 @@ html {
     background-position-x: center;
     background-position-y: center;
     justify-content: center;
-  }
+  } */
 }
 
 
