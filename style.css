@@ -613,10 +613,8 @@ html {
     font-weight: 500;
   }
    .third-block {
-    background-image: url("/image/Frame\ 33.jpg");
+    background-image: url("/image/Frame\ 33.jpg") top center;
     width: 100vw;
-
-    padding-top: 200px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -714,10 +712,9 @@ html {
 }
 @media only screen and (max-width: 410px) {
   .first-block {
-    background-image: url("/image/Frame\ 23.jpg");
+    background-image: url("/image/Frame\ 23.jpg") top center;
     width: 100vw;
     background-repeat: no-repeat; 
-    background-position: center;
     height: 25vh;
  }
   
@@ -754,11 +751,11 @@ html {
     font-weight: 500;
   }
   .second-block {
-    background-image: url("/image/Frame\ 31.jpg");
+    background-image: url("/image/Frame\ 31.jpg") top center;
      width: 100vw;
-     height: 25vh;
+  /*    height: 25vh; */
      background-repeat: no-repeat;
-     background-position: center;
+
   }
   .second-block-main {
     display: flex;
@@ -798,6 +795,13 @@ html {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
+  .third-block {
+    background-image: url("/image/Frame\ 33.jpg") top center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }  
 }
 
 
