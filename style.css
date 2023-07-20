@@ -330,16 +330,16 @@ form p {
     padding-left: 8px;
   }
   .first-block-main h1 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 0px;
-    margin-block-end: 14px;
+    margin-block-end: 10px;
     font-weight: 900;
   }
   .first-block-main p {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 14px;
     margin-block-start: 0;
-    margin-block-end: 10px;
+    margin-block-end: 6px;
     font-weight: 900;
   }
   .first-block-main button,  .second-block-main button {
@@ -367,7 +367,7 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    max-width: 180px;
+    max-width: 160px;
     margin-right: 20px;
   }
   
@@ -422,7 +422,7 @@ form p {
     padding: 4px 0px 4px 0;
   }
   .form-group input {
-    width: 220px;
+    width: 240px;
     height: 20px;
   }
   
@@ -446,7 +446,7 @@ form p {
   }
   
   .form-group select {
-    width: 220px;
+    width: 240px;
     height: 20px;
     padding: 0 16px;
     background-position: right 16px center;
@@ -564,7 +564,7 @@ form p {
     padding: 4px 0px 4px 0;
   }
   .form-group input {
-    width: 220px;
+    width: 240px;
     height: 20px;
   }
   
@@ -588,7 +588,7 @@ form p {
   }
   
   .form-group select {
-    width: 220px;
+    width: 240px;
     height: 20px;
     padding: 0 16px;
     background-position: right 16px center;
