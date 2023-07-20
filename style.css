@@ -412,7 +412,7 @@ form p {
     width: 280px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 20px 8px 22px;
+    margin: 0px 8px 8px 32px;
   }
   .form-group label {
     color: #000;
