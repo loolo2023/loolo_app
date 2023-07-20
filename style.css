@@ -360,31 +360,31 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 230px;
+    margin-top: 170px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    max-width: 160px;
+    max-width: 140px;
     margin-right: 20px;
   }
   
   .second-block-main h2 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 10px;
     color: #280309;
     margin-block-start: 0px;
-    margin-block-end: 8px;
+    margin-block-end: 6px;
   }
   
   .second-block-main p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
     color: #000;
-    font-size: 10px;
+    font-size: 8px;
     margin-block-start: 0;
     margin-block-end: 8px;
   }
@@ -402,13 +402,13 @@ form p {
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 340px;
-    height: 400px;
+    width: 260px;
+    height: 340px;
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 340px;
-    width: 280px;
+    height: 280px;
+    width: 200px;
     border-radius: 30px;
     position: absolute;
     margin: 0px 8px 8px 32px;
@@ -416,16 +416,16 @@ form p {
   .form-group label {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     line-height: normal;
     padding: 4px 0px 4px 0;
   }
-  .form-group input {
-    width: 240px;
-    height: 20px;
+  .form-group input, .form-group select {
+    width: 160px;
+    height: 14px;
   }
-  
+ 
   .form-inputs button {
     border-radius: 30px;
     background: #ff6381;
@@ -444,13 +444,13 @@ form p {
     transform: translateX(-50%);
     cursor: pointer;
   }
-  
   .form-group select {
-    width: 240px;
-    height: 20px;
-    padding: 0 16px;
-    background-position: right 16px center;
-    background-size: 12px;
+    background-image: url("/image/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 8px;
+    cursor: pointer;
+    font-size: 8px;
   }
   }
 @media only screen and (min-width: 405px) and (max-width: 451px) {
