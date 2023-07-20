@@ -189,7 +189,7 @@ main {
   font-size: 48px;
   color: #280309;
   margin-block-start: 0px;
-  margin-block-end: 50px;
+  margin-block-end: 24px;
 }
 
 .second-block-main p {
@@ -1680,7 +1680,7 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 380px;
+    margin-top: 490px;
   }
   .second-block-main {
     display: flex;
@@ -1690,7 +1690,6 @@ form p {
     max-width: 407px;
     margin-right: 109px;
   }
-
   .second-block-main h2 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
@@ -1699,7 +1698,6 @@ form p {
     margin-block-start: 0px;
     margin-block-end: 30px;
   }
-
   .second-block-main p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
