@@ -222,8 +222,8 @@ form p {
   color: #000;
   font-family: "Rokkitt", sans-serif;
   font-weight: 700;
-  font-size: 36px;
-  padding: 24px 72px;
+  font-size: 34px;
+  padding: 18px 72px 18px 24px;
 }
 #contactForm {
   background-image: url("/image/Group\ 16.png");
@@ -242,11 +242,12 @@ form p {
   width: 349px;
   border-radius: 30px;
   position: absolute;
-  margin: 24px 66px 24px 82px;
+  margin: 12px 66px 24px 82px;
   border-radius: 30px;
   background: #f9f6f6;
   box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
 }
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -1686,7 +1687,7 @@ form p {
     margin-block-end: 20px;
   }
 }
-@media only screen and (min-width: 1921px) and (max-width: 2600px){
+/* @media only screen and (min-width: 1921px) and (max-width: 2600px){
   form p {
     color: #000;
     font-family: "Rokkitt", sans-serif;
@@ -1716,4 +1717,4 @@ form p {
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
   }
-}
+} */
