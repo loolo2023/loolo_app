@@ -167,6 +167,11 @@ main {
   font-family: "Noto Sans Hebrew", sans-serif;
   font-weight: 500;
 }
+.first-block-main button:hover, .second-block-main button:hover {
+  background: #FAA5AD;
+  border: 1px solid #FAA5AD;
+}
+
 .second-block {
   display: flex;
   flex-direction: column;
@@ -274,6 +279,10 @@ form p {
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
+}
+.form-inputs button:hover {
+  background: #FAA5AD;
+  border: 1px solid #FAA5AD;
 }
 
 .form-group select {
