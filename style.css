@@ -759,7 +759,7 @@ form p {
     margin-block-end: 10px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button {
+  .first-block-main button, .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -900,7 +900,7 @@ form p {
     margin-block-end: 12px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button {
+  .first-block-main button, .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -1041,7 +1041,7 @@ form p {
     margin-block-end: 16px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button {
+  .first-block-main button, .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -1182,7 +1182,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button {
+  .first-block-main button, .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 12px 20px;
@@ -1455,7 +1455,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button {
+  .first-block-main button, .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
@@ -1570,7 +1570,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button  {
+  .first-block-main button, .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
