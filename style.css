@@ -1503,11 +1503,10 @@ form p {
     height: 32px;
   }
 }
-
-@media only screen and (min-width: 950px) and (max-width: 1139px) {
+@media only screen and (min-width: 950px) and (max-width: 999px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 200px 80px 0 80px;
+    margin: 180px 80px 0 80px;
     color: #280309;
   }
   .first-block-head {
@@ -1529,7 +1528,136 @@ form p {
     font-weight: 900;
   }
   .first-block-main p {
-    font-size: 26px;
+    font-size: 30px;
+    line-height: 28px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+    font-weight: 900;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 164px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 380px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 350px;
+    margin-right: 109px;
+  }
+
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 30px;
+  }
+
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 20px;
+  }
+  .third-block {
+    margin-top: 103px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px 72px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 453px;
+    height: 620px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 8px 50px 8px 74px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 0;
+  }
+  .form-group input,
+  .form-group select {
+    width: 260px;
+    height: 28px;
+  }
+
+  .form-inputs button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 164px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1282px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 180px 80px 0 80px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 24px 80px 0 80px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 18px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 14px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 50px;
+    line-height: 0px;
+    margin-block-end: 30px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 30px;
     line-height: 28px;
     margin-block-start: 0;
     margin-block-end: 20px;
@@ -1634,7 +1762,7 @@ form p {
   }
 }
 
-@media only screen and (min-width: 1140px) and (max-width: 1480px) {
+@media only screen and (min-width: 1283px) and (max-width: 1480px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 200px 80px 0 80px;
@@ -1687,34 +1815,3 @@ form p {
     margin-block-end: 20px;
   }
 }
-/* @media only screen and (min-width: 1921px) and (max-width: 2600px){
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 34px;
-    padding: 18px 72px 18px 24px;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 513px;
-    height: 820px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 648px;
-    width: 349px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 12px 66px 24px 82px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-} */
