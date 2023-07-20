@@ -1609,7 +1609,7 @@ form p {
     line-height: normal;
     padding: 10px 0px 4px 0;
   }
-  .form-group input {
+  .form-group input,  .form-group select {
     width: 260px;
     height: 28px;
   }
@@ -1680,66 +1680,5 @@ form p {
     font-size: 18px;
     margin-block-start: 0;
     margin-block-end: 20px;
-  }
-  .third-block {
-    margin-top: 203px;
-    padding-bottom: 18px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 18px 72px;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 453px;
-    height: 720px;
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 548px;
-    width: 300px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 24px 66px 24px 82px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 10px 0px 4px 0;
-  }
-  .form-group input {
-    width: 260px;
-    height: 32px;
-  }
-  
-  .form-inputs button {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 180px;
-    height: 52px;
-    border: 1px solid #ff6381;
-    font-size: 24px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 32px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  
-  .form-group select {
-    width: 260px;
-    height: 32px;
-   
   }
 }
