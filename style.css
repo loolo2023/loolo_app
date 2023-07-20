@@ -759,7 +759,7 @@ form p {
     margin-block-end: 10px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -804,19 +804,6 @@ form p {
     font-size: 12px;
     margin-block-start: 0;
     margin-block-end: 18px;
-  }
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 14px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 124px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
   .third-block {
     margin-top: 103px;
@@ -913,7 +900,7 @@ form p {
     margin-block-end: 12px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -958,19 +945,6 @@ form p {
     font-size: 12px;
     margin-block-start: 0;
     margin-block-end: 18px;
-  }
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 14px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 124px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
   .third-block {
     margin-top: 103px;
@@ -1067,7 +1041,7 @@ form p {
     margin-block-end: 16px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -1112,19 +1086,6 @@ form p {
     font-size: 14px;
     margin-block-start: 0;
     margin-block-end: 20px;
-  }
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 14px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 124px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
   .third-block {
     margin-top: 103px;
@@ -1221,7 +1182,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button {
     color: white;
     background-color: #ff6381;
     padding: 12px 20px;
@@ -1266,19 +1227,6 @@ form p {
     font-size: 14px;
     margin-block-start: 0;
     margin-block-end: 20px;
-  }
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 12px 20px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 184px;
-    height: 54px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
   .third-block {
     margin-top: 103px;
@@ -1374,7 +1322,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button {
     color: white;
     background-color: #ff6381;
     padding: 12px 20px;
@@ -1419,19 +1367,6 @@ form p {
     font-size: 18px;
     margin-block-start: 0;
     margin-block-end: 20px;
-  }
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 12px 20px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 184px;
-    height: 54px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
   .third-block {
     margin-top: 103px;
@@ -1520,7 +1455,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
@@ -1602,20 +1537,6 @@ form p {
   .form-group select {
     width: 260px;
     height: 28px;
-  }
-
-  .form-inputs button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 164px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1282px) {
@@ -1649,7 +1570,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button {
+  .first-block-main button, .form-inputs button  {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
@@ -1733,21 +1654,8 @@ form p {
     height: 28px;
   }
 
-  .form-inputs button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 164px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-}
 
+}
 @media only screen and (min-width: 1283px) and (max-width: 1480px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
