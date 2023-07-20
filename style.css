@@ -1686,7 +1686,7 @@ form p {
     margin-block-end: 20px;
   }
 }
-@media only screen and (min-width: 1921px){
+@media only screen and (min-width: 1921px) and (max-width: 2600px){
   form p {
     color: #000;
     font-family: "Rokkitt", sans-serif;
