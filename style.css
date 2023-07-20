@@ -1322,7 +1322,7 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .form-inputs button {
+  .first-block-main button, .second-block-main button  {
     color: white;
     background-color: #ff6381;
     padding: 12px 20px;
