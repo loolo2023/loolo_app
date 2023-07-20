@@ -154,7 +154,7 @@ main {
   margin-block-end: 30px;
   font-weight: 900;
 }
-.first-block-main button {
+.first-block-main button, .second-block-main button  {
   color: white;
   background-color: #ff6381;
   padding: 8px 24px;
@@ -199,20 +199,6 @@ main {
   font-size: 24px;
   margin-block-start: 0;
   margin-block-end: 30px;
-}
-
-.second-block-main button {
-  color: white;
-  background-color: #ff6381;
-  padding: 8px 24px;
-  border: 1px solid #ff6381;
-  border-radius: 30px;
-  width: 224px;
-  height: 64px;
-  cursor: pointer;
-  font-size: 24px;
-  font-family: "Noto Sans Hebrew", sans-serif;
-  font-weight: 500;
 }
 .third-block {
   margin-top: 273px;
