@@ -20,6 +20,7 @@ function validateForm() {
 
   for (const input of requiredInputs) {
     if (!input.value.trim()) {
+      alert("Please fill in all required fields before submitting the form.");
       return false;
     }
   }
