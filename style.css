@@ -403,7 +403,7 @@ form p {
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 380px;
+    width: 340px;
     height: 400px;
   }
   .form-inputs {
@@ -412,7 +412,7 @@ form p {
     width: 300px;
     border-radius: 30px;
     position: absolute;
-    margin: 8px 40px 8px 42px;
+    margin: 0px 20px 8px 22px;
   }
   .form-group label {
     color: #000;
