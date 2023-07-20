@@ -361,7 +361,7 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 300px;
+    margin-top: 345px;
   }
   .second-block-main {
     display: flex;
@@ -375,10 +375,10 @@ form p {
   .second-block-main h2 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
-    margin-block-end: 20px;
+    margin-block-end: 16px;
   }
   
   .second-block-main p {
@@ -391,28 +391,28 @@ form p {
   }
   
   .third-block {
-    margin-top: 103px;
+    margin-top: 53px;
     padding-bottom: 18px;
   }
   form p {
     color: #000;
     font-family: "Rokkitt", sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    padding: 18px 64px;
+    font-size: 14px;
+    padding: 12px 34px;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 400px;
-    height: 500px;
+    width: 380px;
+    height: 400px;
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 400px;
+    height: 340px;
     width: 300px;
     border-radius: 30px;
     position: absolute;
-    margin: 8px 40px 8px 52px;
+    margin: 8px 40px 8px 42px;
   }
   .form-group label {
     color: #000;
@@ -420,11 +420,11 @@ form p {
     font-size: 12px;
     font-weight: 500;
     line-height: normal;
-    padding: 8px 0px 4px 0;
+    padding: 4px 0px 4px 0;
   }
   .form-group input {
-    width: 240px;
-    height: 24px;
+    width: 220px;
+    height: 20px;
   }
   
   .form-inputs button {
@@ -433,22 +433,22 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 140px;
-    height: 36px;
+    width: 120px;
+    height: 28px;
     border: 1px solid #ff6381;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 18px;
+    bottom: 12px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
   }
   
   .form-group select {
-    width: 240px;
-    height: 24px;
+    width: 220px;
+    height: 20px;
     padding: 0 16px;
     background-position: right 16px center;
     background-size: 12px;
