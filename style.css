@@ -311,11 +311,294 @@ form p {
   background: white;
   cursor: pointer;
 }
-
-@media only screen and (min-width: 370px) and (max-width: 518px) {
+@media only screen and (max-width: 404px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 130px 20px 0 20px;
+    margin: 100px 20px 0 20px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 18px 20px 0 20px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 8px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 6px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 20px;
+    line-height: 0px;
+    margin-block-end: 14px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block-start: 0;
+    margin-block-end: 10px;
+    font-weight: 900;
+  }
+  .first-block-main button,  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 10px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 84px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 230px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 180px;
+    margin-right: 20px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 8px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 10px;
+    margin-block-start: 0;
+    margin-block-end: 8px;
+  }
+  
+  .third-block {
+    margin-top: 53px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 340px;
+    height: 400px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 340px;
+    width: 280px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 8px 8px 32px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 4px 0px 4px 0;
+  }
+  .form-group input {
+    width: 220px;
+    height: 20px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 120px;
+    height: 28px;
+    border: 1px solid #ff6381;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 220px;
+    height: 20px;
+    padding: 0 16px;
+    background-position: right 16px center;
+    background-size: 12px;
+  }
+  }
+@media only screen and (min-width: 405px) and (max-width: 451px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 100px 20px 0 20px;
+    color: #280309;
+  }
+  .first-block-head {
+    padding: 18px 20px 0 20px;
+  }
+  .first-block-head div:nth-child(1) p {
+    font-size: 14px;
+  }
+  .first-block-head div:nth-child(2) p {
+    font-size: 10px;
+  }
+  .first-block-head div:nth-child(2) p:nth-child(2) {
+    padding-left: 8px;
+  }
+  .first-block-main h1 {
+    font-size: 20px;
+    line-height: 0px;
+    margin-block-end: 14px;
+    font-weight: 900;
+  }
+  .first-block-main p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block-start: 0;
+    margin-block-end: 10px;
+    font-weight: 900;
+  }
+  .first-block-main button,  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 10px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 84px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 230px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    max-width: 180px;
+    margin-right: 20px;
+  }
+  
+  .second-block-main h2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #280309;
+    margin-block-start: 0px;
+    margin-block-end: 8px;
+  }
+  
+  .second-block-main p {
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 10px;
+    margin-block-start: 0;
+    margin-block-end: 8px;
+  }
+  
+  .third-block {
+    margin-top: 53px;
+    padding-bottom: 18px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 340px;
+    height: 400px;
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 340px;
+    width: 280px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 8px 8px 32px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 4px 0px 4px 0;
+  }
+  .form-group input {
+    width: 220px;
+    height: 20px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 120px;
+    height: 28px;
+    border: 1px solid #ff6381;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 220px;
+    height: 20px;
+    padding: 0 16px;
+    background-position: right 16px center;
+    background-size: 12px;
+  }
+  }
+@media only screen and (min-width: 451px) and (max-width: 518px) {
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 100px 20px 0 20px;
     color: #280309;
   }
   .first-block-head {
@@ -333,7 +616,7 @@ form p {
   .first-block-main h1 {
     font-size: 24px;
     line-height: 0px;
-    margin-block-end: 16px;
+    margin-block-end: 14px;
     font-weight: 900;
   }
   .first-block-main p {
@@ -349,10 +632,10 @@ form p {
     padding: 8px 10px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 104px;
+    width: 84px;
     height: 34px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -361,33 +644,33 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 345px;
+    margin-top: 230px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    max-width: 200px;
-    margin-right: 20px;
+    max-width: 190px;
+    margin-right: 30px;
   }
   
   .second-block-main h2 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 16px;
     color: #280309;
     margin-block-start: 0px;
-    margin-block-end: 16px;
+    margin-block-end: 8px;
   }
   
   .second-block-main p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
     color: #000;
-    font-size: 12px;
+    font-size: 10px;
     margin-block-start: 0;
-    margin-block-end: 18px;
+    margin-block-end: 8px;
   }
   
   .third-block {
@@ -398,7 +681,7 @@ form p {
     color: #000;
     font-family: "Rokkitt", sans-serif;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px 30px;
   }
   #contactForm {
