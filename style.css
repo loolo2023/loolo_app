@@ -1686,3 +1686,101 @@ form p {
     margin-block-end: 20px;
   }
 }
+@media only screen and (max-width: 1921px){
+  .third-block {
+    margin-top: 273px;
+    padding-bottom: 24px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    padding: 24px 72px;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 513px;
+    height: 820px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 648px;
+    width: 349px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 18px 66px 24px 82px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 16px 0px 4px 0;
+  }
+  .form-group input {
+    width: 317px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #ececec;
+    padding: 0 24px 0 16px;
+  }
+  
+  .form-inputs button {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 180px;
+    height: 52px;
+    border: 1px solid #ff6381;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group select {
+    width: 317px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #ececec;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 16px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
