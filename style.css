@@ -79,7 +79,6 @@ summary {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-weight: normal;
   vertical-align: baseline;
   background: transparent;
 }
@@ -111,14 +110,14 @@ main {
 .main {
   background-image: url("/image/Frame\ 91.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 100%;
 }
 .first-block-head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 32px 80px 0 80px;
+  padding: 40px 40px 0 40px;
   font-family: "Noto Sans Hebrew", sans-serif;
   color: #280309;
   font-weight: 400;
@@ -126,15 +125,6 @@ main {
 .first-block-head div:nth-child(2) {
   display: flex;
   flex-direction: row;
-}
-.first-block-head div:nth-child(1) p {
-  font-size: 24px;
-}
-.first-block-head div:nth-child(2) p {
-  font-size: 16px;
-}
-.first-block-head div:nth-child(2) p:nth-child(2) {
-  padding-left: 10px;
 }
 .first-block-main {
   font-family: "Rokkitt", sans-serif;
@@ -147,14 +137,15 @@ main {
   margin-block-end: 40px;
   font-weight: 900;
 }
-.first-block-main p {
+.first-block-main h2 {
   font-size: 48px;
   line-height: 58px;
   margin-block-start: 0;
   margin-block-end: 30px;
   font-weight: 900;
 }
-.first-block-main button, .second-block-main button  {
+.first-block-main button,
+.second-block-main button {
   color: white;
   background-color: #ff6381;
   padding: 8px 24px;
@@ -167,9 +158,11 @@ main {
   font-family: "Noto Sans Hebrew", sans-serif;
   font-weight: 500;
 }
-.first-block-main button:hover, .second-block-main button:hover {
-  background: #FAA5AD;
-  border: 1px solid #FAA5AD;
+.first-block-main button:hover,
+.second-block-main button:hover {
+  background: #e94666;
+  border: 1px solid #e94666;
+  transition: background 0.3s, border 0.3s;
 }
 
 .second-block {
@@ -177,44 +170,51 @@ main {
   flex-direction: column;
   align-items: end;
   justify-content: end;
-  margin-top: 503px;
+  margin-top: 484px;
 }
 .second-block-main {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
-  max-width: 457px;
-  margin-right: 159px;
+  padding: 0 79px 0 66px;
+  text-align: start;
 }
 
-.second-block-main h2 {
+.second-block-main h3 {
   font-family: "Rokkitt", sans-serif;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 40px;
   color: #280309;
   margin-block-start: 0px;
-  margin-block-end: 24px;
+  line-height: normal;
+  padding-bottom: 24px;
 }
-
+.second-block-main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 624px;
+  padding-bottom: 48px;
+}
 .second-block-main p {
-  font-family: "Noto Sans Hebrew", sans-serif;
-  font-weight: 500;
   color: #000;
-  font-size: 24px;
-  margin-block-start: 0;
-  margin-block-end: 30px;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: justify;
 }
 .third-block {
-  margin-top: 273px;
-  padding-bottom: 24px;
+  margin-top: 130px;
+  padding-bottom: 16px;
 }
 form p {
   color: #000;
   font-family: "Rokkitt", sans-serif;
   font-weight: 700;
-  font-size: 34px;
-  padding: 18px 72px 18px 24px;
+  font-size: 24px;
+  padding: 32px 56px 24px 56px;
+  text-align: center;
 }
 #contactForm {
   background-image: url("/image/Group\ 16.png");
@@ -230,19 +230,18 @@ form p {
 .form-inputs {
   background-color: #fbfbfb;
   height: 648px;
-  width: 349px;
+  width: 400px;
   border-radius: 30px;
   position: absolute;
-  margin: 12px 66px 24px 82px;
+  margin: 0px 56px 32px 56px;
   border-radius: 30px;
   background: #f9f6f6;
   box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
 }
-
 .form-group {
   display: flex;
   flex-direction: column;
-  padding: 0 16px;
+  padding: 0 24px;
 }
 .form-group label {
   color: #000;
@@ -250,15 +249,15 @@ form p {
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
-  padding: 16px 0px 4px 0;
+  padding: 14px 0px 4px 0;
 }
 .form-group input {
-  width: 317px;
+  width: 352px;
   height: 40px;
-  background: #fff;
   border-radius: 30px;
+  border: 1px solid #eaeaea;
+  background: #fff;
   box-shadow: 0px 4px 10px 0px #ececec;
-  border: 1px solid #ececec;
   padding: 0 24px 0 16px;
 }
 
@@ -268,8 +267,8 @@ form p {
   margin-top: 24px;
   padding: 0px 24px;
   color: white;
-  width: 180px;
-  height: 52px;
+  width: 352px;
+  height: 64px;
   border: 1px solid #ff6381;
   font-size: 24px;
   font-weight: 500;
@@ -281,17 +280,18 @@ form p {
   cursor: pointer;
 }
 .form-inputs button:hover {
-  background: #FAA5AD;
-  border: 1px solid #FAA5AD;
+  background: #e94666;
+  border: 1px solid #e94666;
+  transition: background 0.3s, border 0.3s;
 }
 
 .form-group select {
-  width: 317px;
+  width: 352px;
   height: 40px;
   background: #fff;
   border-radius: 30px;
   box-shadow: 0px 4px 10px 0px #ececec;
-  border: 1px solid #ececec;
+  border: 1px solid #eaeaea;
   padding: 0 16px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -305,6 +305,46 @@ form p {
 .form-group select option {
   color: #000;
   background: white;
+  cursor: pointer;
+}
+.error-message {
+  color: red;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  font-size: 13px;
+  padding: 2px 0 2px 15px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
   cursor: pointer;
 }
 @media only screen and (max-width: 404px) {
@@ -768,7 +808,8 @@ form p {
     margin-block-end: 10px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -909,7 +950,8 @@ form p {
     margin-block-end: 12px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -1050,7 +1092,8 @@ form p {
     margin-block-end: 16px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 14px;
@@ -1191,7 +1234,8 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 12px 20px;
@@ -1331,7 +1375,8 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button  {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 12px 20px;
@@ -1464,7 +1509,8 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
@@ -1579,7 +1625,8 @@ form p {
     margin-block-end: 20px;
     font-weight: 900;
   }
-  .first-block-main button, .second-block-main button {
+  .first-block-main button,
+  .second-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
@@ -1607,23 +1654,26 @@ form p {
     max-width: 350px;
     margin-right: 109px;
   }
-
   .second-block-main h2 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
     font-size: 36px;
     color: #280309;
-    margin-block-start: 0px;
-    margin-block-end: 30px;
   }
-
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 624px;
+  }
   .second-block-main p {
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
     color: #000;
-    font-size: 18px;
-    margin-block-start: 0;
-    margin-block-end: 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: start;
   }
   .third-block {
     margin-top: 103px;
@@ -1662,26 +1712,27 @@ form p {
     width: 260px;
     height: 28px;
   }
-
-
 }
 @media only screen and (min-width: 1283px) and (max-width: 1480px) {
+  .main {
+    background-image: url("/image/Frame\ 91.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 200px 80px 0 80px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 60px;
+    font-size: 65px;
     line-height: 0px;
-    margin-block-end: 40px;
     font-weight: 900;
   }
-  .first-block-main p {
-    font-size: 40px;
+  .first-block-main h2 {
+    font-size: 42px;
     line-height: 58px;
-    margin-block-start: 0;
-    margin-block-end: 30px;
     font-weight: 900;
   }
   .second-block {
@@ -1689,30 +1740,39 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 490px;
+    margin-top: 360px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     justify-content: end;
-    max-width: 407px;
-    margin-right: 109px;
+    padding: 0 40px 0 700px;
   }
-  .second-block-main h2 {
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 624px;
+  }
+  .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
     font-size: 36px;
     color: #280309;
     margin-block-start: 0px;
-    margin-block-end: 30px;
+    line-height: normal;
+    padding-bottom: 20px;
+    max-width: 624px;
   }
   .second-block-main p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
     color: #000;
     font-size: 18px;
-    margin-block-start: 0;
-    margin-block-end: 20px;
+    max-width: 514px;
+  }
+  .second-block-main button {
+    margin-left: 100px;
   }
 }

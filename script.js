@@ -19,12 +19,32 @@ function validateForm() {
   const requiredInputs = myForm.querySelectorAll("input[required]");
 
   for (const input of requiredInputs) {
+    const errorSpan = input.nextElementSibling;
     if (!input.value.trim()) {
-      alert("Please fill in all required fields before submitting the form.");
+      errorSpan.style.display = "block";
       return false;
+    } else {
+      errorSpan.style.display = "none";
     }
   }
+
   return true;
+}
+function displayModal() {
+  const modal = document.getElementById("myModal");
+  const closeModal = document.getElementsByClassName("close")[0];
+
+  modal.style.display = "block";
+
+  closeModal.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  window.onclick = function (event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  };
 }
 
 function handleFormSubmit(event) {
@@ -32,7 +52,7 @@ function handleFormSubmit(event) {
 
   if (validateForm()) {
     submitButton.disabled = true;
-
+    displayModal();
     const formData = {
       gender: document.getElementById("genderSelect").value,
       lookingForGender: document.getElementById("genderSelect2").value,
@@ -59,3 +79,13 @@ function handleFormSubmit(event) {
 }
 
 submitButton.addEventListener("click", handleFormSubmit);
+
+submitButton.addEventListener("touchstart", () => {
+  submitButton.style.backgroundColor = "#FFAE88";
+  submitButton.style.border = "1px solid #FFAE88";
+});
+
+submitButton.addEventListener("touchend", () => {
+  submitButton.style.backgroundColor = "#ff6381";
+  submitButton.style.border = "1px solid #ff6381";
+});
