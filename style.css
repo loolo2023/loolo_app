@@ -385,7 +385,7 @@ form p {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 451px) and (max-width: 480px) {
   main {
     height: 100%;
   }
@@ -485,7 +485,7 @@ form p {
   .left {
     flex: 1;
     width: 210px;
-    padding-left: 40px;
+    padding-left: 2.5em;
   }
   .right {
     width: 200px;
@@ -512,14 +512,14 @@ form p {
     color: #000;
     font-family: "Rokkitt", sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    padding: 32px 56px 24px 56px;
+    font-size: 20px;
+    padding: 20px 50px 20px 50px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 513px;
-    height: 820px;
+    width: 420px;
+    height: 800px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -530,10 +530,10 @@ form p {
   .form-inputs {
     background-color: #fbfbfb;
     height: 648px;
-    width: 400px;
+    width: 360px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 56px 32px 56px;
+    margin: 0px 40px 32px 30px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -546,31 +546,52 @@ form p {
   .form-group label {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     line-height: normal;
-    padding: 14px 0px 4px 0;
+    padding: 14px 0px 4px 6px;
   }
   .form-group input {
-    width: 352px;
-    height: 40px;
+    width: 320px;
+    height: 36px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  
+  .form-group select {
+    width: 320px;
+    height: 36px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 12px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
   .active {
     border-radius: 30px;
     background: #ff6381;
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 352px;
-    height: 64px;
+    width: 320px;
+    height: 44px;
     border: 1px solid #ff6381;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
@@ -589,9 +610,9 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 352px;
-    height: 64px;
-    font-size: 24px;
+    width: 320px;
+    height: 44px;
+    font-size: 18px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
@@ -602,28 +623,7 @@ form p {
     border: 1px solid #ffa1b3;
     cursor: not-allowed;
   }
-  .form-group select {
-    width: 352px;
-    height: 40px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 16px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
+ 
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -650,7 +650,7 @@ form p {
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
     background-repeat: no-repeat;
-    padding: 109px 0px 108px 0px;
+    padding: 80px 0px 80px 0px;
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
@@ -658,7 +658,9 @@ form p {
     font-weight: 700;
     border-radius: 30px;
   }
-  
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
   .close {
     display: block;
     position: relative;
@@ -668,9 +670,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 60%;
-    height: 64px;
+    height: 54px;
     border: 1px solid #ff6381;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
