@@ -385,9 +385,1845 @@ form p {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 451px) and (max-width: 480px) {
+@media screen and (min-width: 435px) and (max-width: 441px) {
   main {
     height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 0px 0px 14px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 30px;
+    height: 40px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 45px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 32px;
+    margin-block-end: 26px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 58px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 22px;
+  }
+  br{
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 200px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  
+  .second-block {
+    margin-top: 534px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 26px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 210px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button{
+    display: none;
+  }
+  .third-block {
+    margin-top: 130px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 55px 12px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 410px;
+    height: 688px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 592px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 40px 25px 30px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 310px;
+    height: 34px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 310px;
+    height: 34px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 10px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 42px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 42px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+ 
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+}
+@media screen and (min-width: 442px) and (max-width: 449px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 45px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 38px;
+    margin-block-end: 26px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 58px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 22px;
+  }
+  br{
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  
+  .second-block {
+    margin-top: 536px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 28px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 30px;
+    padding-top: 26px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 210px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button{
+    display: none;
+  }
+  .third-block {
+    margin-top: 130px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 55px 16px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 410px;
+    height: 706px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 600px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 40px 30px 30px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 310px;
+    height: 34px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 310px;
+    height: 34px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 10px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 42px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 42px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+ 
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+}
+@media only screen and (min-width: 450px) and (max-width: 454px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 45px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 38px;
+    margin-block-end: 26px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 58px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 22px;
+  }
+  br{
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  
+  .second-block {
+    margin-top: 546px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 30px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 30px;
+    padding-top: 32px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 210px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button{
+    display: none;
+  }
+  .third-block {
+    margin-top: 130px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px 60px 18px 60px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 420px;
+    height: 728px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 608px;
+    width: 360px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 40px 30px 30px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 320px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 320px;
+    height: 36px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 12px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #ff6381;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+ 
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+}
+@media only screen and (min-width: 456px) and (max-width: 459px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 50px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 38px;
+    margin-block-end: 26px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 58px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 22px;
+  }
+  br{
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  
+  .second-block {
+    margin-top: 554px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 30px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 30px;
+    padding-top: 35px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 210px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button{
+    display: none;
+  }
+  .third-block {
+    margin-top: 130px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px 60px 18px 60px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 420px;
+    height: 740px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 628px;
+    width: 360px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 40px 30px 30px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 320px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 320px;
+    height: 36px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 12px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #ff6381;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+ 
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+}
+@media only screen and (min-width: 460px) and (max-width: 467px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 50px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 38px;
+    margin-block-end: 26px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 58px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 22px;
+  }
+  br{
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  
+  .second-block {
+    margin-top: 564px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 36px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 220px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button{
+    display: none;
+  }
+  .third-block {
+    margin-top: 130px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px 60px 18px 60px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 420px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 628px;
+    width: 360px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 40px 30px 30px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 320px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 320px;
+    height: 36px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 12px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #ff6381;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+ 
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+}
+@media only screen and (min-width: 468px) and (max-width: 474px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 45px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 40px;
+    margin-block-end: 34px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 62px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br{
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  
+  .second-block {
+    margin-top: 584px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 42px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 2.5em;
+  }
+  .right {
+    width: 200px;
+    margin-left: 220px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button{
+    display: none;
+  }
+  .third-block {
+    margin-top: 100px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 420px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 628px;
+    width: 360px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 40px 30px 30px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 320px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 320px;
+    height: 36px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 12px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #ff6381;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 320px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+ 
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content  p{
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+}
+@media only screen and (min-width: 475px) and (max-width: 480px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
   }
   .main {
     background-image: url("/image/Mobile.png");
@@ -519,7 +2355,7 @@ form p {
   #contactForm {
     background-image: url("/image/Group\ 16.png");
     width: 420px;
-    height: 800px;
+    height: 780px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -645,16 +2481,16 @@ form p {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    width: 70%;
     max-height: 80%;
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
     background-repeat: no-repeat;
-    padding: 80px 0px 80px 0px;
+    padding: 60px 0px 60px 0px;
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 48px;
+    font-size: 34px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -689,150 +2525,8 @@ form p {
   }
   
 }
-/* @media only screen and (min-width: 405px) and (max-width: 451px) {
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 100px 20px 0 20px;
-    color: #280309;
-  }
-  .first-block-head {
-    padding: 18px 20px 0 20px;
-  }
-  .first-block-head div:nth-child(1) p {
-    font-size: 14px;
-  }
-  .first-block-head div:nth-child(2) p {
-    font-size: 10px;
-  }
-  .first-block-head div:nth-child(2) p:nth-child(2) {
-    padding-left: 8px;
-  }
-  .first-block-main h1 {
-    font-size: 20px;
-    line-height: 0px;
-    margin-block-end: 14px;
-    font-weight: 900;
-  }
-  .first-block-main p {
-    font-size: 16px;
-    line-height: 20px;
-    margin-block-start: 0;
-    margin-block-end: 10px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 10px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 84px;
-    height: 34px;
-    cursor: pointer;
-    font-size: 10px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 230px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    max-width: 180px;
-    margin-right: 20px;
-  }
 
-  .second-block-main h2 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 16px;
-    color: #280309;
-    margin-block-start: 0px;
-    margin-block-end: 8px;
-  }
-
-  .second-block-main p {
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-    color: #000;
-    font-size: 10px;
-    margin-block-start: 0;
-    margin-block-end: 8px;
-  }
-
-  .third-block {
-    margin-top: 53px;
-    padding-bottom: 18px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    padding: 10px 30px;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 340px;
-    height: 400px;
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 340px;
-    width: 280px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 8px 8px 32px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 4px 0px 4px 0;
-  }
-  .form-group input {
-    width: 240px;
-    height: 20px;
-  }
-
-  .form-inputs button {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 120px;
-    height: 28px;
-    border: 1px solid #ff6381;
-    font-size: 12px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 12px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-
-  .form-group select {
-    width: 240px;
-    height: 20px;
-    padding: 0 16px;
-    background-position: right 16px center;
-    background-size: 12px;
-  }
-}
-@media only screen and (min-width: 451px) and (max-width: 518px) {
+/* @media only screen and (min-width: 451px) and (max-width: 518px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 100px 20px 0 20px;
@@ -974,7 +2668,7 @@ form p {
     background-position: right 16px center;
     background-size: 12px;
   }
-} */
+}  */
 @media only screen and (min-width: 519px) and (max-width: 590px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
