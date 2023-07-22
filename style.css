@@ -399,10 +399,14 @@ form p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 32px 0px 69px 32px;
+    padding: 16px 0px 0px 16px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
+  }
+  .first-block-head-img img{
+    width: 35px;
+    height: 45px;
   }
   .first-block-head div:nth-child(2) {
     display: flex;
@@ -410,33 +414,35 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 261px 80px 0 80px;
+    margin: 55px 0px 0 0px;
     color: #280309;
+    text-align: center;
   }
   .first-block-main h1 {
-    font-size: 72px;
-    line-height: 0px;
-    margin-block-end: 40px;
+    font-size: 40px;
+    margin-block-end: 34px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 48px;
-    line-height: 58px;
-    margin-block-start: 0;
-    margin-block-end: 30px;
+    margin: 0 62px;
+    font-size: 26px;
+    line-height: 30px;
     font-weight: 900;
+    padding-bottom: 26px;
   }
-  .first-block-main button,
-  .second-block-main button {
+  br{
+    display: none;
+  }
+  .first-block-main button {
     color: white;
     background-color: #ff6381;
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 224px;
-    height: 64px;
+    width: 220px;
+    height: 44px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -448,46 +454,58 @@ form p {
   }
   
   .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 484px;
+    margin-top: 584px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 79px 0 66px;
+    padding: 0 10px 0 10px;
     text-align: start;
   }
   
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
+    text-align: center;
   }
   .second-block-main-text {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 624px;
     padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1){
+    padding-bottom: 42px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 40px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 220px;
+    padding: 40px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
+  .second-block-main button{
+    display: none;
+  }
   .third-block {
-    margin-top: 130px;
+    margin-top: 100px;
     padding-bottom: 16px;
   }
   form p {
@@ -669,7 +687,7 @@ form p {
   }
   
 }
-@media only screen and (min-width: 405px) and (max-width: 451px) {
+/* @media only screen and (min-width: 405px) and (max-width: 451px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 100px 20px 0 20px;
@@ -954,7 +972,7 @@ form p {
     background-position: right 16px center;
     background-size: 12px;
   }
-}
+} */
 @media only screen and (min-width: 519px) and (max-width: 590px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
