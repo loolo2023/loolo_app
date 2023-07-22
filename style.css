@@ -110,7 +110,7 @@ main {
 .main {
   background-image: url("/image/Frame\ 91.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   min-height: 100%;
 }
 .first-block-head {
@@ -261,7 +261,7 @@ form p {
   padding: 0 24px 0 16px;
 }
 
-.form-inputs button {
+.active {
   border-radius: 30px;
   background: #ff6381;
   margin-top: 24px;
@@ -279,12 +279,29 @@ form p {
   transform: translateX(-50%);
   cursor: pointer;
 }
-.form-inputs button:hover {
+.active:hover {
   background: #e94666;
   border: 1px solid #e94666;
   transition: background 0.3s, border 0.3s;
 }
-
+.disabled {
+  border-radius: 30px;
+  margin-top: 24px;
+  padding: 0px 24px;
+  color: white;
+  width: 352px;
+  height: 64px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffa1b3;
+  border: 1px solid #ffa1b3;
+  cursor: not-allowed;
+}
 .form-group select {
   width: 352px;
   height: 40px;
@@ -321,32 +338,54 @@ form p {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-height: 80%;
+  overflow: auto;
+  background-image: url("/image/Frame\ 122.png");
+  background-repeat: no-repeat;
+  padding: 109px 0px 108px 0px;
   text-align: center;
+  color: #000;
+  font-family: "Rokkitt", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  border-radius: 30px;
 }
 
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  background: #ff6381;
+  margin-top: 24px;
+  padding: 12px 24px;
+  color: white;
+  width: 60%;
+  height: 64px;
+  border: 1px solid #ff6381;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
   cursor: pointer;
 }
+.close:hover,
+.close:focus {
+  background: #e94666;
+  border: 1px solid #e94666;
+  transition: background 0.3s, border 0.3s;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 404px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;

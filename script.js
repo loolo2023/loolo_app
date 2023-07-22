@@ -52,7 +52,8 @@ function handleFormSubmit(event) {
 
   if (validateForm()) {
     submitButton.disabled = true;
-    displayModal();
+    submitButton.classList.add("disabled");
+    submitButton.classList.remove("active");
     const formData = {
       gender: document.getElementById("genderSelect").value,
       lookingForGender: document.getElementById("genderSelect2").value,
@@ -74,6 +75,9 @@ function handleFormSubmit(event) {
       })
       .finally(() => {
         submitButton.disabled = false;
+        submitButton.classList.remove("disabled");
+        submitButton.classList.add("active");
+        displayModal();
       });
   }
 }
