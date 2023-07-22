@@ -384,7 +384,7 @@ form p {
   transition: background 0.3s, border 0.3s;
   cursor: pointer;
 }
-@media screen and (max-width: 360px) and (max-width: 384px) {
+@media screen and (min-width: 360px) and (max-width: 384px) {
   main {
     height: 100%;
     overflow-x: hidden;
