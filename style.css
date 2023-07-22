@@ -514,7 +514,7 @@ form p {
     color: #000;
     font-family: "Rokkitt", sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px 55px 10px 55px;
     text-align: center;
   }
@@ -551,7 +551,7 @@ form p {
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 10px 0px 4px 6px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
     width: 280px;
@@ -597,7 +597,7 @@ form p {
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 14px;
+    bottom: 22px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -618,7 +618,7 @@ form p {
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 14px;
+    bottom: 22px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
