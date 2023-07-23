@@ -1616,7 +1616,7 @@ form p {
   .main {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: 100% 100%;
     min-height: 100%;
   }
   .first-block-head {
@@ -1744,7 +1744,7 @@ form p {
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 350px;
+    width: 370px;
     height: 600px;
     margin: 0 auto;
     position: relative;
@@ -1756,7 +1756,7 @@ form p {
   .form-inputs {
     background-color: #fbfbfb;
     height: 514px;
-    width: 310px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
     margin: 0px 35px 20px 25px;
