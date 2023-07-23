@@ -1790,7 +1790,6 @@ input::-webkit-calendar-picker-indicator {
     padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    display: none;
     width: 280px;
     height: 30px;
     border-radius: 30px;
@@ -1800,7 +1799,7 @@ input::-webkit-calendar-picker-indicator {
     padding: 0 24px 0 16px;
   }
   input::-webkit-calendar-picker-indicator {
-    opacity: 0;;
+    opacity: 0;
   }
   .form-group select {
     width: 280px;
