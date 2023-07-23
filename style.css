@@ -10568,7 +10568,7 @@ form p {
   }
   
   .second-block {
-    margin-top: 914px;
+    margin-top: 964px;
     margin-bottom: 70px;
   }
   .second-block-main {
@@ -10587,7 +10587,7 @@ form p {
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 90px 30px;
+    padding: 0px 30px 70px 30px;
   }
   .second-block-main-text {
     display: flex;
@@ -10600,19 +10600,20 @@ form p {
   }
   .left {
     flex: 1;
-    width: 300px;
+    width: 320px;
     padding-left: 0px;
     padding-top: 0px;
+    padding-right: 70px;
   }
   .right {
-    width: 290px;
+    width: 300px;
     margin-left: 280px;
     padding: 10px 10px 180px 0;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
