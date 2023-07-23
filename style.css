@@ -1798,7 +1798,7 @@ input::-webkit-calendar-picker-indicator {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  #input6::-webkit-calendar-picker-indicator {
+  #input6 {
     display: none;
   }
   .form-group select {
