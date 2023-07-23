@@ -2108,8 +2108,8 @@ input::-webkit-calendar-picker-indicator {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 280px;
@@ -2418,8 +2418,8 @@ input::-webkit-calendar-picker-indicator {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 300px;
@@ -2728,8 +2728,8 @@ input::-webkit-calendar-picker-indicator {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 310px;
