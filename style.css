@@ -1807,6 +1807,9 @@ input::-webkit-calendar-picker-indicator {
   #input6::-ms-clear {
     display: none;
   }
+  input[type="date"]::-webkit-input-placeholder{ 
+    visibility: hidden !important;
+}
   .form-group select {
     width: 280px;
     height: 30px;
