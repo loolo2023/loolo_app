@@ -257,7 +257,10 @@ form p {
   border: 1px solid #eaeaea;
   background: #fff;
   box-shadow: 0px 4px 10px 0px #ececec;
-  padding: 0 32px 0 16px;
+  padding: 0 24px 0 16px;
+}
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
 }
 
 .active {
@@ -865,8 +868,8 @@ form p {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 200px;
@@ -1175,8 +1178,8 @@ form p {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 260px;
@@ -1483,7 +1486,10 @@ form p {
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
+  }
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 280px;
@@ -1792,8 +1798,8 @@ form p {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;;
   }
   .form-group select {
     width: 280px;
@@ -3032,8 +3038,8 @@ form p {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 310px;
@@ -3342,8 +3348,8 @@ form p {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
   .form-group select {
     width: 310px;
