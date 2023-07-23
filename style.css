@@ -1790,6 +1790,7 @@ input::-webkit-calendar-picker-indicator {
     padding: 8px 0px 4px 6px;
   }
   .form-group input {
+    display: none;
     width: 280px;
     height: 30px;
     border-radius: 30px;
