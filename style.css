@@ -11677,567 +11677,9 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 1330px) and (max-width: 1363px) {
+@media only screen and (min-width: 1380px) and (max-width: 1429px) {
   .main {
-    background-size: 100% 100%;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 60px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 200px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 68px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 44px;
-    line-height: 48px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 450px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 0px;
-    margin-top: 100px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 870px;
-    width: 680px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 750px;
-    width: 570px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 480px;
-    height: 44px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 20px;
-  }
-  .form-group select {
-    width: 480px;
-    height: 44px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 16px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    border: 1px solid #ff6381;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1364px) and (max-width: 1399px) {
-  .main {
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 60px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 200px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 68px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 44px;
-    line-height: 48px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 450px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 0px;
-    margin-top: 100px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 870px;
-    width: 680px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 740px;
-    width: 570px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 480px;
-    height: 44px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 20px;
-  }
-  .form-group select {
-    width: 480px;
-    height: 44px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 16px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    border: 1px solid #ff6381;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1400px) and (max-width: 1429px) {
-  .main {
-    background-size: 100% auto;
+    background-size: cover;
   }
   .first-block-head {
     display: flex;
@@ -12330,133 +11772,8 @@ form p {
     text-align: justify;
   }
   .third-block {
-    padding-top: 0px;
-    margin-top: 100px;
+    margin-top: 180px;
     padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 870px;
-    width: 680px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 750px;
-    width: 570px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 480px;
-    height: 44px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 20px;
-  }
-  .form-group select {
-    width: 480px;
-    height: 44px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 16px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    border: 1px solid #ff6381;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
   }
   .modal {
     display: none;
@@ -12514,7 +11831,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 1430px) and (max-width: 1456px) {
+@media only screen and (min-width: 1430px) and (max-width: 1493px) {
   .main {
     background-size: cover;
   }
@@ -12522,7 +11839,7 @@ form p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 80px;
+    padding: 30px 30px 0 80px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -12533,18 +11850,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 200px 60px 0 80px;
+    margin: 240px 80px 0 80px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 72px;
+    font-size: 74px;
     line-height: 0px;
     margin-block-end: 50px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 48px;
-    line-height: 50px;
+    font-size: 42px;
+    line-height: 58px;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -12556,1149 +11873,30 @@ form p {
     border: 1px solid #ff6381;
     border-radius: 30px;
     width: 220px;
-    height: 70px;
+    height: 76px;
     cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 510px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 40px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 870px;
-    width: 680px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 750px;
-    width: 570px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 480px;
-    height: 44px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 20px;
-  }
-  .form-group select {
-    width: 480px;
-    height: 44px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 16px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    border: 1px solid #ff6381;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1457px) and (max-width: 1495px) {
-  .main {
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 210px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 72px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 48px;
-    line-height: 50px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 520px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 540px;
-    padding-bottom: 30px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 40px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 870px;
-    width: 680px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 750px;
-    width: 570px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 480px;
-    height: 44px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 20px;
-  }
-  .form-group select {
-    width: 480px;
-    height: 44px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 16px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    border: 1px solid #ff6381;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 480px;
-    height: 46px;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1496px) and (max-width: 1544px) {
-  .main {
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 230px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 72px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 48px;
-    line-height: 50px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 520px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 540px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 50px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 900px;
-    width: 700px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 780px;
-    width: 590px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 500px;
-    height: 46px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 24px;
-  }
-  .form-group select {
-    width: 500px;
-    height: 46px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 500px;
-    height: 50px;
-    border: 1px solid #ff6381;
     font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 500px;
-    height: 50px;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1496px) and (max-width: 1544px) {
-  .main {
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 230px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 72px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 48px;
-    line-height: 50px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 26px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
   .second-block {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 520px;
+    margin-top: 490px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 140px 0 66px;
+    padding: 0 80px 0 60px;
     text-align: start;
   }
   
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 540px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 50px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 900px;
-    width: 700px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 780px;
-    width: 590px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 500px;
-    height: 46px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 24px;
-  }
-  .form-group select {
-    width: 500px;
-    height: 46px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 500px;
-    height: 50px;
-    border: 1px solid #ff6381;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 500px;
-    height: 50px;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
     font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1545px) and (max-width: 1614px) {
-  .main {
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 250px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 80px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 50px;
-    line-height: 68px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 240px;
-    height: 80px;
-    cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 520px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 160px 0 66px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -13714,139 +11912,14 @@ form p {
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    padding-top: 60px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    padding: 24px 80px 16px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 910px;
-    width: 700px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 780px;
-    width: 590px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 12px 0px 6px 0;
-  }
-  .form-group input {
-    width: 500px;
-    height: 46px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 24px;
-  }
-  .form-group select {
-    width: 500px;
-    height: 46px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 500px;
-    height: 50px;
-    border: 1px solid #ff6381;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 500px;
-    height: 50px;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
+  .third-block{
+    margin-top: 160px;
   }
   .modal {
     display: none;
@@ -13872,7 +11945,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -13886,9 +11959,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 40%;
-    height: 80px;
+    height: 100px;
     border: 1px solid #ff6381;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -13903,8 +11976,8 @@ form p {
     transition: background 0.3s, border 0.3s;
     cursor: pointer;
   }
-}
-@media only screen and (min-width: 1615px) and (max-width: 1667px) {
+} 
+@media only screen and (min-width: 1494px) and (max-width: 1559px) {
   .main {
     background-size: cover;
   }
@@ -13912,7 +11985,153 @@ form p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 60px;
+    padding: 30px 30px 0 80px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 80px;
+    width: 60px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 240px 80px 0 100px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 76px;
+    line-height: 0px;
+    margin-block-end: 50px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 44px;
+    line-height: 58px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 76px;
+    cursor: pointer;
+    font-size: 28px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 540px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 120px 0 80px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 580px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 160px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 1560px) and (max-width: 1609px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 100px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -13923,18 +12142,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 230px 80px 0 80px;
+    margin: 240px 80px 0 100px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 80px;
+    font-size: 78px;
     line-height: 0px;
-    margin-block-end: 70px;
+    margin-block-end: 58px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 50px;
-    line-height: 68px;
+    font-size: 48px;
+    line-height: 60px;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -13948,35 +12167,28 @@ form p {
     width: 240px;
     height: 80px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 30px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
   .second-block {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 580px;
+    margin-top: 520px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 100px 0 80px;
+    padding: 0 120px 0 80px;
     text-align: start;
   }
   
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 41px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -13986,145 +12198,20 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
+    max-width: 630px;
     padding-bottom: 48px;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    padding-top: 30px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    padding: 24px 80px 10px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 1000px;
-    width: 800px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 860px;
-    width: 690px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 14px 0px 8px 0;
-  }
-  .form-group input {
-    width: 600px;
-    height: 46px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 24px;
-  }
-  .form-group select {
-    width: 600px;
-    height: 46px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 16px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 600px;
-    height: 50px;
-    border: 1px solid #ff6381;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 600px;
-    height: 50px;
-    font-size: 28px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
+  .third-block{
+    margin-top: 160px;
   }
   .modal {
     display: none;
@@ -14150,7 +12237,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -14164,9 +12251,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 40%;
-    height: 80px;
+    height: 100px;
     border: 1px solid #ff6381;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -14181,8 +12268,8 @@ form p {
     transition: background 0.3s, border 0.3s;
     cursor: pointer;
   }
-}
-@media only screen and (min-width: 1668px) and (max-width: 1699px) {
+} 
+@media only screen and (min-width: 1610px) and (max-width: 1645px) {
   .main {
     background-size: cover;
   }
@@ -14190,7 +12277,7 @@ form p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 60px;
+    padding: 40px 40px 0 100px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -14201,18 +12288,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 230px 80px 0 80px;
+    margin: 240px 80px 0 100px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 80px;
+    font-size: 82px;
     line-height: 0px;
-    margin-block-end: 70px;
+    margin-block-end: 58px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 50px;
-    line-height: 68px;
+    font-size: 48px;
+    line-height: 60px;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -14226,35 +12313,28 @@ form p {
     width: 240px;
     height: 80px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 30px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
   .second-block {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 580px;
+    margin-top: 560px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 100px 0 80px;
+    padding: 0 120px 0 80px;
     text-align: start;
   }
   
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 41px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -14264,145 +12344,20 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
+    max-width: 630px;
     padding-bottom: 48px;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    padding-top: 30px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    padding: 24px 80px 10px 80px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 1060px;
-    width: 800px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 930px;
-    width: 690px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 14px 0px 8px 0;
-  }
-  .form-group input {
-    width: 600px;
-    height: 50px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 26px;
-  }
-  .form-group select {
-    width: 600px;
-    height: 50px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 26px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 600px;
-    height: 60px;
-    border: 1px solid #ff6381;
-    font-size: 30px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 600px;
-    height: 60px;
-    font-size: 30px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    padding: 2px 0 2px 15px;
+  .third-block{
+    margin-top: 160px;
   }
   .modal {
     display: none;
@@ -14428,7 +12383,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -14442,9 +12397,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 40%;
-    height: 80px;
+    height: 100px;
     border: 1px solid #ff6381;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -14459,8 +12414,8 @@ form p {
     transition: background 0.3s, border 0.3s;
     cursor: pointer;
   }
-}
-@media only screen and (min-width: 1700px) and (max-width: 1791px) {
+} 
+@media only screen and (min-width: 1646px) and (max-width: 1699px) {
   .main {
     background-size: cover;
   }
@@ -14468,7 +12423,7 @@ form p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 70px;
+    padding: 40px 40px 0 100px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -14479,18 +12434,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 250px 80px 0 70px;
+    margin: 260px 80px 0 100px;
     color: #280309;
   }
   .first-block-main h1 {
     font-size: 84px;
     line-height: 0px;
-    margin-block-end: 80px;
+    margin-block-end: 60px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 58px;
-    line-height: 68px;
+    font-size: 50px;
+    line-height: 62px;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -14501,304 +12456,19 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 280px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 32px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 660px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 120px 0 70px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 36px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 660px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 60px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 34px;
-    padding: 32px 56px 24px 56px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 1220px;
-    width: 900px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 1068px;
-    width: 800px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 16px 0px 10px 0;
-  }
-  .form-group input {
-    width: 700px;
-    height: 58px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 26px;
-  }
-  .form-group select {
-    width: 700px;
-    height: 58px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 26px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
+    width: 240px;
     height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
     cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1792px) and (max-width: 1849px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 280px 80px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 90px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 58px;
-    line-height: 68px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 280px;
-    height: 70px;
-    cursor: pointer;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
   .second-block {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 620px;
+    margin-top: 580px;
   }
   .second-block-main {
     display: flex;
@@ -14820,7 +12490,299 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 660px;
+    max-width: 630px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 200px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 1700px) and (max-width: 1754px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 100px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 100px;
+    width: 80px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 270px 80px 0 100px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 88px;
+    line-height: 0px;
+    margin-block-end: 66px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 54px;
+    line-height: 64px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 280px;
+    height: 90px;
+    cursor: pointer;
+    font-size: 36px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 590px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px 0 60px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 43px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 650px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 200px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 1755px) and (max-width: 1819px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 100px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 100px;
+    width: 80px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 280px 80px 0 100px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 88px;
+    line-height: 0px;
+    margin-block-end: 70px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 58px;
+    line-height: 64px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 280px;
+    height: 90px;
+    cursor: pointer;
+    font-size: 36px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 610px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px 0 60px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 670px;
     padding-bottom: 48px;
   }
   .second-block-main p {
@@ -14832,133 +12794,8 @@ form p {
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    padding-top: 60px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 34px;
-    padding: 32px 56px 24px 56px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 1220px;
-    width: 900px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 1068px;
-    width: 800px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 16px 0px 10px 0;
-  }
-  .form-group input {
-    width: 700px;
-    height: 58px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 26px;
-  }
-  .form-group select {
-    width: 700px;
-    height: 58px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 26px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    padding: 2px 0 2px 15px;
+  .third-block{
+    margin-top: 200px;
   }
   .modal {
     display: none;
@@ -14984,7 +12821,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
+    font-size: 88px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -14998,287 +12835,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1850px) and (max-width: 1899px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img{
     height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 300px 80px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 100px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 64px;
-    line-height: 68px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
     border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 340px;
-    height: 90px;
-    cursor: pointer;
-    font-size: 38px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 740px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 120px 0 70px;
-    text-align: start;
-  }
-  
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
     font-size: 44px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 680px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    padding-top: 100px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    padding: 28px 56px 20px 56px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 1320px;
-    width: 900px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 1150px;
-    width: 800px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 16px 0px 10px 0;
-  }
-  .form-group input {
-    width: 700px;
-    height: 60px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 26px;
-  }
-  .form-group select {
-    width: 700px;
-    height: 60px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 26px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -15294,7 +12853,7 @@ form p {
     cursor: pointer;
   }
 } 
-@media only screen and (min-width: 1900px) and (max-width: 1979px) {
+@media only screen and (min-width: 1820px) and (max-width: 1899px) {
   .main {
     background-size: cover;
   }
@@ -15302,7 +12861,7 @@ form p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 80px;
+    padding: 40px 40px 0 120px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -15313,18 +12872,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 320px 80px 0 80px;
+    margin: 300px 80px 0 120px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 100px;
+    font-size: 90px;
     line-height: 0px;
-    margin-block-end: 80px;
+    margin-block-end: 74px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 64px;
-    line-height: 68px;
+    font-size: 60px;
+    line-height: 70px;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -15335,38 +12894,31 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
+    width: 280px;
     height: 90px;
     cursor: pointer;
-    font-size: 38px;
+    font-size: 36px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  
   .second-block {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 800px;
+    margin-top: 650px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 120px 0 80px;
+    padding: 0 140px 0 60px;
     text-align: start;
   }
   
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 46px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -15376,145 +12928,20 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 700px;
+    max-width: 730px;
     padding-bottom: 48px;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    padding-top: 100px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    padding: 32px 56px 24px 56px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    height: 1370px;
-    width: 900px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 1150px;
-    width: 800px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 56px 32px 56px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 16px 0px 10px 0;
-  }
-  .form-group input {
-    width: 700px;
-    height: 60px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 24px;
-    font-size: 26px;
-  }
-  .form-group select {
-    width: 700px;
-    height: 60px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 24px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 36px center;
-    background-size: 20px;
-    cursor: pointer;
-    font-size: 26px;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    border: 1px solid #ff6381;
-    font-size: 36px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 12px;
-    padding: 0px 24px;
-    color: white;
-    width: 700px;
-    height: 70px;
-    font-size: 36px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    padding: 2px 0 2px 15px;
+  .third-block{
+    margin-top: 200px;
   }
   .modal {
     display: none;
@@ -15540,7 +12967,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
+    font-size: 88px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -15554,9 +12981,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 40%;
-    height: 80px;
+    height: 100px;
     border: 1px solid #ff6381;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -15572,8 +12999,299 @@ form p {
     cursor: pointer;
   }
 } 
-
-@media only screen and (min-width: 2100px) and (max-width: 2249px) {
+@media only screen and (min-width: 1900px) and (max-width: 1959px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 120px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 100px;
+    width: 80px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 320px 80px 0 120px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 94px;
+    line-height: 0px;
+    margin-block-end: 74px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 280px;
+    height: 90px;
+    cursor: pointer;
+    font-size: 36px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 670px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px 0 60px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 730px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 200px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 1960px) and (max-width: 2024px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 120px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 100px;
+    width: 80px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 320px 80px 0 120px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 94px;
+    line-height: 0px;
+    margin-block-end: 74px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 280px;
+    height: 90px;
+    cursor: pointer;
+    font-size: 36px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 720px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px 0 60px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 730px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 200px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 2025px) and (max-width: 2089px) {
   .main {
     background-size: cover;
   }
@@ -15587,8 +13305,300 @@ form p {
     font-weight: 400;
   }
   .first-block-head img{
-    height: 120px;
-    width: 100px;
+    height: 100px;
+    width: 80px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 360px 80px 0 140px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 100px;
+    line-height: 0px;
+    margin-block-end: 80px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 320px;
+    height: 110px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 700px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 160px 0 60px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 800px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 250px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 2090px) and (max-width: 2154px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 140px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 100px;
+    width: 80px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 400px 80px 0 140px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 100px;
+    line-height: 0px;
+    margin-block-end: 80px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 320px;
+    height: 110px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-top: 720px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 160px 0 60px;
+    text-align: start;
+  }
+  
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+  }
+  .second-block-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 800px;
+    padding-bottom: 48px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .third-block{
+    margin-top: 250px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ff6381;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+} 
+@media only screen and (min-width: 2155px) and (max-width: 2249px) {
+  .main {
+    background-size: cover;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 140px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img{
+    height: 100px;
+    width: 80px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
@@ -15602,8 +13612,8 @@ form p {
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 66px;
-    line-height: 78px;
+    font-size: 60px;
+    line-height: 70px;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -15614,10 +13624,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 360px;
+    width: 320px;
     height: 110px;
     cursor: pointer;
-    font-size: 48px;
+    font-size: 40px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -15626,12 +13636,12 @@ form p {
     flex-direction: column;
     align-items: end;
     justify-content: end;
-    margin-top: 820px;
+    margin-top: 780px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 200px 0 60px;
+    padding: 0 160px 0 60px;
     text-align: start;
   }
   
@@ -15648,7 +13658,7 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 840px;
+    max-width: 820px;
     padding-bottom: 48px;
   }
   .second-block-main p {
@@ -15687,7 +13697,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 108px;
+    font-size: 88px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -15700,7 +13710,7 @@ form p {
     margin-top: 24px;
     padding: 12px 24px;
     color: white;
-    width: 60%;
+    width: 40%;
     height: 100px;
     border: 1px solid #ff6381;
     font-size: 44px;
