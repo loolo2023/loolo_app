@@ -111,6 +111,7 @@ main {
   background-image: url("/image/Frame\ 91.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+
 }
 .first-block-head {
   display: flex;
@@ -207,7 +208,6 @@ main {
   margin-right: 4em;
 }
 .third-block {
-  padding-top: 180px;
   padding-bottom: 16px;
 }
 form p {
