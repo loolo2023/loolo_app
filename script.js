@@ -62,11 +62,12 @@ function handleFormSubmit(event) {
       location: document.getElementById("input5").value,
       birthdate: document.getElementById("input6").value,
       email: document.getElementById("input7").value,
+      social: document.getElementById("input8").value,
     };
     axios
       .post(
         
-        `https://script.google.com/macros/s/AKfycbwbfsn_m8q6Ic67vlobx_jIBU0Azg4oI3wT5ZdNWXUoAM_xSjQisXqkgYCBzoxFpJsv/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.email}`
+        `https://script.google.com/macros/s/AKfycbxWGDzagVCdjZciDhgMK4L2EjaNgsr_CXdEEovAv2pAPwxfyEuUX3nDOklGVZDeu7hm/exec/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.email}&p8=${formData.social}`
       )
       .then((response) => {
         console.log("Data saved to Google Sheets!");
