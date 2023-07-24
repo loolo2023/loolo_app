@@ -111,7 +111,6 @@ main {
   background-image: url("/image/Frame\ 91.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: center top;
 }
 .first-block-head {
   display: flex;
@@ -11793,7 +11792,7 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 680px;
+    max-width: 0px;
     padding-bottom: 48px;
   }
   .second-block-main p {
