@@ -10,7 +10,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Barlow";
+  font-family: "Barrow";
   src: url("fonts/Barrow/Barlow-Regular.ttf") format("truetype");
   font-style: normal;
 }
@@ -463,7 +463,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 440px;
+    margin-top: 420px;
   }
   .second-block-main {
     display: flex;
@@ -500,8 +500,8 @@ form p {
   .right {
     width: 160px;
     margin-left: 200px;
-    padding: 0px 20px 60px 0;
-    margin-top: 40px;
+    padding: 20px 20px 60px 0;
+    margin-top: 30px;
   }
   .second-block-main p {
     color: #000;
@@ -768,7 +768,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 480px;
+    margin-top: 460px;
   }
   .second-block-main {
     display: flex;
@@ -780,7 +780,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -806,7 +806,7 @@ form p {
   .right {
     width: 180px;
     margin-left: 220px;
-    padding: 30px 0px 80px 0;
+    padding: 40px 0px 80px 0;
   }
   .second-block-main p {
     color: #000;
@@ -1073,7 +1073,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 510px;
+    margin-top: 480px;
   }
   .second-block-main {
     display: flex;
@@ -1085,7 +1085,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -1106,12 +1106,12 @@ form p {
     flex: 1;
     width: 220px;
     padding-left: 70px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .right {
     width: 180px;
     margin-left: 220px;
-    padding: 30px 0px 80px 0;
+    padding: 60px 0px 80px 0;
   }
   .second-block-main p {
     color: #000;
@@ -1343,13 +1343,13 @@ form p {
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 30px;
-    margin-block-end: 20px;
+    font-size: 36px;
+    margin-block-end: 24px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 58px;
-    font-size: 20px;
+    margin: 0 50px;
+    font-size: 22px;
     line-height: 30px;
     font-weight: 900;
     padding-bottom: 16px;
@@ -1378,7 +1378,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 540px;
+    margin-top: 520px;
   }
   .second-block-main {
     display: flex;
@@ -1390,7 +1390,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -1411,12 +1411,12 @@ form p {
     flex: 1;
     width: 220px;
     padding-left: 60px;
-    padding-top: 100px;
+    padding-top: 120px;
   }
   .right {
     width: 180px;
     margin-left: 220px;
-    padding: 30px 10px 0px 0;
+    padding: 50px 10px 0px 0;
   }
   .second-block-main p {
     color: #000;
@@ -1684,7 +1684,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 515px;
+    margin-top: 480px;
   }
   .second-block-main {
     display: flex;
@@ -1696,7 +1696,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -1722,7 +1722,7 @@ form p {
   .right {
     width: 200px;
     margin-left: 200px;
-    padding: 30px 10px 80px 0;
+    padding: 60px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
@@ -1742,7 +1742,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -1777,7 +1777,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -1990,7 +1990,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 540px;
+    margin-top: 500px;
   }
   .second-block-main {
     display: flex;
@@ -2002,7 +2002,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -2021,14 +2021,14 @@ form p {
   }
   .left {
     flex: 1;
-    width: 215px;
-    padding-left: 40px;
+    width: 220px;
+    padding-left: 50px;
     padding-top: 40px;
   }
   .right {
     width: 200px;
     margin-left: 200px;
-    padding: 40px 10px 80px 0;
+    padding: 60px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
@@ -2048,7 +2048,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -2083,7 +2083,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -2267,7 +2267,7 @@ form p {
   }
   .first-block-main h2 {
     margin: 0 58px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     font-weight: 900;
     padding-bottom: 22px;
@@ -2296,7 +2296,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 520px;
+    margin-top: 500px;
   }
   .second-block-main {
     display: flex;
@@ -2308,7 +2308,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -2334,7 +2334,7 @@ form p {
   .right {
     width: 200px;
     margin-left: 200px;
-    padding: 30px 10px 80px 0;
+    padding: 50px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
@@ -2354,7 +2354,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -2389,7 +2389,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -2572,7 +2572,7 @@ form p {
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 58px;
+    margin: 0 50px;
     font-size: 24px;
     line-height: 30px;
     font-weight: 900;
@@ -2602,7 +2602,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 544px;
+    margin-top: 510px;
   }
   .second-block-main {
     display: flex;
@@ -2614,7 +2614,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -2633,14 +2633,14 @@ form p {
   }
   .left {
     flex: 1;
-    width: 210px;
-    padding-left: 30px;
-    padding-top: 10px;
+    width: 220px;
+    padding-left: 40px;
+    padding-top: 30px;
   }
   .right {
     width: 200px;
     margin-left: 210px;
-    padding: 20px 10px 80px 0;
+    padding: 40px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
@@ -2660,7 +2660,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -2695,7 +2695,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -2920,7 +2920,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -2940,7 +2940,7 @@ form p {
     flex: 1;
     width: 210px;
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 40px;
   }
   .right {
     width: 200px;
@@ -2949,8 +2949,8 @@ form p {
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
+    font-family: "Barrow", sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -2965,7 +2965,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -3000,7 +3000,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -3212,8 +3212,8 @@ form p {
     transition: background 0.3s, border 0.3s;
   }
 
- {
-    margin-top: 534px;
+  .second-block {
+    margin-top: 554px;
   }
   .second-block-main {
     display: flex;
@@ -3245,19 +3245,19 @@ form p {
     flex: 1;
     width: 210px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 50px;
   }
   .right {
     width: 200px;
     margin-left: 210px;
-    padding: 40px 10px 80px 0;
+    padding: 20px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
+    font-family: "Barrow", sans-serif;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -3270,7 +3270,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -3305,7 +3305,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -3550,19 +3550,19 @@ form p {
     flex: 1;
     width: 210px;
     padding-left: 30px;
-    padding-top: 26px;
+    padding-top: 50px;
   }
   .right {
     width: 200px;
     margin-left: 210px;
-    padding: 40px 10px 80px 0;
+    padding: 60px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
+    font-family: "Barrow", sans-serif;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -3575,7 +3575,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -3610,7 +3610,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -3691,7 +3691,7 @@ form p {
 
   .error-message {
     color: red;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 13px;
     padding: 2px 0 2px 15px;
   }
@@ -3835,7 +3835,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -3855,19 +3855,19 @@ form p {
     flex: 1;
     width: 210px;
     padding-left: 30px;
-    padding-top: 32px;
+    padding-top: 55px;
   }
   .right {
     width: 200px;
     margin-left: 210px;
-    padding: 40px 10px 80px 0;
+    padding: 50px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
+    font-family: "Barrow", sans-serif;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -3875,12 +3875,12 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 90px;
+    margin-top: 150px;
     padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -3915,7 +3915,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -3996,7 +3996,7 @@ form p {
 
   .error-message {
     color: red;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 13px;
     padding: 2px 0 2px 15px;
   }
@@ -4128,7 +4128,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 554px;
+    margin-top: 574px;
   }
   .second-block-main {
     display: flex;
@@ -4140,7 +4140,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -4160,7 +4160,7 @@ form p {
     flex: 1;
     width: 210px;
     padding-left: 30px;
-    padding-top: 35px;
+    padding-top: 50px;
   }
   .right {
     width: 200px;
@@ -4169,10 +4169,10 @@ form p {
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
+    font-family: "Barrow", sans-serif;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -4181,6 +4181,617 @@ form p {
   }
   .third-block {
     margin-top: 90px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Barrow", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 460px) and (max-width: 474px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 65px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 36px;
+    margin-block-end: 24px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 62px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 570px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 20px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 35px;
+    padding-top: 60px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 220px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 150px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 475px) and (max-width: 480px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 55px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 40px;
+    margin-block-end: 34px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 62px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 584px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 210px;
+    padding-left: 2.5em;
+    padding-top: 70px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 220px;
+    padding: 40px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 150px;
     padding-bottom: 16px;
   }
   form p {
@@ -4298,311 +4909,6 @@ form p {
     border: 1px solid #ffa1b3;
     cursor: not-allowed;
   }
-
-  .error-message {
-    color: red;
-    font-family: "Barlow", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 460px) and (max-width: 467px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 100%;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 45px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 40px;
-    margin-block-end: 34px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 62px;
-    font-size: 26px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 500px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 210px;
-    padding-left: 35px;
-  }
-  .right {
-    width: 200px;
-    margin-left: 220px;
-    padding: 20px 10px 80px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    font-style: normal;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 90px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px 55px 10px 55px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 370px;
-    height: 660px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 574px;
-    width: 320px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 35px 20px 25px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 8px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 280px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 16px;
-  }
-  .form-group select {
-    width: 280px;
-    height: 30px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 8px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    border: 1px solid #ff6381;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -4667,311 +4973,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 468px) and (max-width: 474px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 100%;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 45px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 40px;
-    margin-block-end: 34px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 62px;
-    font-size: 26px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 584px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 210px;
-    padding-left: 35px;
-  }
-  .right {
-    width: 200px;
-    margin-left: 220px;
-    padding: 20px 10px 80px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 90px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px 55px 10px 55px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 370px;
-    height: 660px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 574px;
-    width: 320px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 35px 20px 25px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 8px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 280px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 16px;
-  }
-  .form-group select {
-    width: 280px;
-    height: 30px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 8px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    border: 1px solid #ff6381;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 475px) and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 500px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -5001,7 +5003,7 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 55px 0px 0 0px;
+    margin: 65px 0px 0 0px;
     color: #280309;
     text-align: center;
   }
@@ -5041,19 +5043,19 @@ form p {
   }
 
   .second-block {
-    margin-top: 584px;
+    margin-top: 594px;
   }
   .second-block-main {
     display: flex;
     flex-direction: column;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
     text-align: start;
   }
 
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 22px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -5067,328 +5069,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 210px;
     padding-left: 2.5em;
+    padding-top: 80px;
   }
   .right {
     width: 200px;
     margin-left: 220px;
-    padding: 40px 10px 80px 0;
+    padding: 50px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 90px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px 55px 10px 55px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 370px;
-    height: 660px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 574px;
-    width: 320px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 35px 20px 25px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 8px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 280px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 16px;
-  }
-  .form-group select {
-    width: 280px;
-    height: 30px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 8px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    border: 1px solid #ff6381;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 505px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 100%;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
     font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 55px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 40px;
-    margin-block-end: 34px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 62px;
-    font-size: 26px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 504px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 210px;
-    padding-left: 2.5em;
-  }
-  .right {
-    width: 200px;
-    margin-left: 220px;
-    padding: 40px 10px 80px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
@@ -5396,12 +5095,12 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 90px;
+    margin-top: 150px;
     padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -5410,7 +5109,7 @@ form p {
   #contactForm {
     background-image: url("/image/Group\ 16.png");
     width: 370px;
-    height: 660px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -5420,7 +5119,7 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 574px;
+    height: 544px;
     width: 320px;
     border-radius: 30px;
     position: absolute;
@@ -5436,7 +5135,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -5579,7 +5278,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 506px) and (max-width: 513px) {
+@media only screen and (min-width: 500px) and (max-width: 515px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -5649,7 +5348,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 664px;
+    margin-top: 624px;
   }
   .second-block-main {
     display: flex;
@@ -5676,25 +5375,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 230px;
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 50px;
   }
   .right {
     width: 200px;
     margin-left: 250px;
-    padding: 40px 10px 80px 0;
+    padding: 80px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
+    font-family: "Barrow", sans-serif;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -5702,12 +5401,12 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 90px;
+    margin-top: 160px;
     padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -5716,7 +5415,7 @@ form p {
   #contactForm {
     background-image: url("/image/Group\ 16.png");
     width: 370px;
-    height: 660px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -5726,7 +5425,7 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 574px;
+    height: 544px;
     width: 320px;
     border-radius: 30px;
     position: absolute;
@@ -5742,7 +5441,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -5885,7 +5584,8 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 514px) and (max-width: 520px) {
+
+@media only screen and (min-width: 516px) and (max-width: 532px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -5916,6 +5616,313 @@ form p {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 75px 0px 0 0px;
+    color: #280309;
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 42px;
+    margin-block-end: 34px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 62px;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 644px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 230px;
+    padding-left: 50px;
+    padding-top: 70px;
+  }
+  .right {
+    width: 200px;
+    margin-left: 250px;
+    padding: 90px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 170px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 533px) and (max-width: 542px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 85px 0px 0 0px;
     color: #280309;
     text-align: center;
   }
@@ -5968,7 +5975,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 24px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
@@ -5983,25 +5990,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 230px;
     padding-left: 50px;
-    padding-top: 30px;
+    padding-top: 70px;
   }
   .right {
     width: 200px;
     margin-left: 250px;
-    padding: 40px 10px 80px 0;
+    padding: 70px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
+    font-family: "Barrow", sans-serif;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -6009,12 +6016,12 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 90px;
+    margin-top: 170px;
     padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -6023,7 +6030,7 @@ form p {
   #contactForm {
     background-image: url("/image/Group\ 16.png");
     width: 370px;
-    height: 660px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -6033,7 +6040,7 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 574px;
+    height: 544px;
     width: 320px;
     border-radius: 30px;
     position: absolute;
@@ -6049,7 +6056,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -6192,7 +6199,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 521px) and (max-width: 530px) {
+@media only screen and (min-width: 543px) and (max-width: 553px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -6200,7 +6207,7 @@ form p {
   .main {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     min-height: 100%;
   }
   .first-block-head {
@@ -6222,621 +6229,7 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 75px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 42px;
-    margin-block-end: 34px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 62px;
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 684px;
-    margin-bottom: 150px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-    padding: 0 40px;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 230px;
-    padding-left: 50px;
-    padding-top: 50px;
-  }
-  .right {
-    width: 200px;
-    margin-left: 250px;
-    padding: 40px 10px 80px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 90px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px 55px 10px 55px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 370px;
-    height: 660px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 574px;
-    width: 320px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 35px 20px 25px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 8px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 280px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 16px;
-  }
-  .form-group select {
-    width: 280px;
-    height: 30px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 8px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    border: 1px solid #ff6381;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 531px) and (max-width: 540px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 100%;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 55px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 42px;
-    margin-block-end: 34px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 62px;
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 44px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 544px;
-    margin-bottom: 150px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-    padding: 0 40px;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 230px;
-    padding-left: 50px;
-    padding-top: 0px;
-  }
-  .right {
-    width: 200px;
-    margin-left: 250px;
-    padding: 30px 10px 80px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 90px;
-    padding-bottom: 16px;
-  }
-  form p {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px 55px 10px 55px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 370px;
-    height: 660px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 574px;
-    width: 320px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 35px 20px 25px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Barlow", sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 8px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 280px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 24px 0 16px;
-  }
-  .form-group select {
-    width: 280px;
-    height: 30px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 8px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    border: 1px solid #ff6381;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 280px;
-    height: 36px;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 541px) and (max-width: 560px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 100%;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 60px 0px 0 0px;
+    margin: 90px 0px 0 0px;
     color: #280309;
     text-align: center;
   }
@@ -6876,7 +6269,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 524px;
+    margin-top: 664px;
     margin-bottom: 150px;
   }
   .second-block-main {
@@ -6904,23 +6297,23 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 260px;
     padding-left: 50px;
-    padding-top: 0px;
+    padding-top: 50px;
   }
   .right {
     width: 240px;
     margin-left: 260px;
-    padding: 60px 10px 80px 0;
+    padding: 80px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -6930,12 +6323,12 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 90px;
+    margin-top: 170px;
     padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -6944,7 +6337,7 @@ form p {
   #contactForm {
     background-image: url("/image/Group\ 16.png");
     width: 370px;
-    height: 660px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -6954,7 +6347,7 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 574px;
+    height: 544px;
     width: 320px;
     border-radius: 30px;
     position: absolute;
@@ -6970,7 +6363,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -7113,7 +6506,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 561px) and (max-width: 590px) {
+@media only screen and (min-width: 554px) and (max-width: 563px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -7121,7 +6514,7 @@ form p {
   .main {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     min-height: 100%;
   }
   .first-block-head {
@@ -7143,7 +6536,7 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 80px 0px 0 0px;
+    margin: 90px 0px 0 0px;
     color: #280309;
     text-align: center;
   }
@@ -7154,7 +6547,7 @@ form p {
   }
   .first-block-main h2 {
     margin: 0 56px;
-    font-size: 34px;
+    font-size: 32px;
     line-height: 30px;
     font-weight: 900;
     padding-bottom: 26px;
@@ -7183,7 +6576,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 594px;
+    margin-top: 684px;
     margin-bottom: 150px;
   }
   .second-block-main {
@@ -7211,25 +6604,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 260px;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 60px;
   }
   .right {
     width: 240px;
     margin-left: 260px;
-    padding: 20px 10px 80px 0;
+    padding: 80px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -7237,12 +6630,12 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 90px;
+    margin-top: 170px;
     padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 10px 55px 10px 55px;
@@ -7251,7 +6644,7 @@ form p {
   #contactForm {
     background-image: url("/image/Group\ 16.png");
     width: 370px;
-    height: 660px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -7261,7 +6654,7 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 574px;
+    height: 544px;
     width: 320px;
     border-radius: 30px;
     position: absolute;
@@ -7277,7 +6670,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 11px;
     font-weight: 500;
     line-height: normal;
@@ -7420,7 +6813,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 591px) and (max-width: 597px) {
+@media only screen and (min-width: 564px) and (max-width: 577px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -7429,6 +6822,623 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 95px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 50px;
+    margin-block-end: 34px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 56px;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 704px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 260px;
+    padding-left: 50px;
+    padding-top: 60px;
+  }
+  .right {
+    width: 240px;
+    margin-left: 260px;
+    padding: 90px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 170px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width: 590px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 105px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 50px;
+    margin-block-end: 34px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 56px;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 724px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 260px;
+    padding-left: 50px;
+    padding-top: 60px;
+  }
+  .right {
+    width: 240px;
+    margin-left: 260px;
+    padding: 90px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 170px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 591px) and (max-width: 606px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
@@ -7451,16 +7461,17 @@ form p {
     font-family: "Rokkitt", sans-serif;
     margin: 110px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 54px;
+    font-size: 50px;
     margin-block-end: 34px;
     font-weight: 900;
   }
   .first-block-main h2 {
     margin: 0 56px;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 30px;
     font-weight: 900;
     padding-bottom: 26px;
@@ -7474,10 +7485,934 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 300px;
-    height: 50px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 744px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 280px;
+    padding-left: 40px;
+    padding-top: 110px;
+  }
+  .right {
+    width: 260px;
+    margin-left: 280px;
+    padding: 100px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 170px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
     font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 607px) and (max-width: 611px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px 0px 16px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 120px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 50px;
+    margin-block-end: 34px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 56px;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 784px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 280px;
+    padding-left: 40px;
+    padding-top: 130px;
+  }
+  .right {
+    width: 260px;
+    margin-left: 280px;
+    padding: 100px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 200px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 612px) and (max-width: 622px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 110px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 52px;
+    margin-block-end: 38px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 56px;
+    font-size: 34px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 764px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 280px;
+    padding-left: 40px;
+    padding-top: 110px;
+  }
+  .right {
+    width: 260px;
+    margin-left: 280px;
+    padding: 100px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 200px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 623px) and (max-width: 637px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 120px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 52px;
+    margin-block-end: 38px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 56px;
+    font-size: 34px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -7490,7 +8425,7 @@ form p {
 
   .second-block {
     margin-top: 794px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -7502,13 +8437,13 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 26px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -7517,637 +8452,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 260px;
-    padding-left: 50px;
-    padding-top: 100px;
-  }
-  .right {
-    width: 210px;
-    margin-left: 290px;
-    padding: 20px 10px 80px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    padding: 18px 60px 18px 60px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 520px;
-    height: 780px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 648px;
-    width: 460px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 40px 32px 30px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 24px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 11px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 420px;
-    height: 42px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
-  }
-  .form-group select {
-    width: 420px;
-    height: 42px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 12px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 420px;
-    height: 44px;
-    border: 1px solid #ff6381;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 420px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 598px) and (max-width: 611px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 100px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 54px;
-    margin-block-end: 44px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 56px;
-    font-size: 36px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 300px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 814px;
-    margin-bottom: 50px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 24px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-    padding: 0 30px;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 260px;
-    padding-left: 50px;
-    padding-top: 0px;
-  }
-  .right {
-    width: 210px;
-    margin-left: 290px;
-    padding: 20px 10px 170px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    padding: 18px 60px 18px 60px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 520px;
-    height: 780px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 648px;
-    width: 460px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 40px 32px 30px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 24px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 11px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 420px;
-    height: 42px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
-  }
-  .form-group select {
-    width: 420px;
-    height: 42px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 12px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 420px;
-    height: 44px;
-    border: 1px solid #ff6381;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 420px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 612px) and (max-width: 625px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 110px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 54px;
-    margin-block-end: 44px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 56px;
-    font-size: 36px;
-    line-height: 30px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 300px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 814px;
-    margin-bottom: 50px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 24px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-    padding: 0px 30px 40px 30px;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 280px;
-    padding-left: 50px;
-    padding-top: 0px;
+    padding-left: 40px;
+    padding-top: 110px;
   }
   .right {
-    width: 230px;
-    margin-left: 290px;
-    padding: 10px 10px 150px 0;
+    width: 260px;
+    margin-left: 280px;
+    padding: 100px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -8155,21 +8478,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 200px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    padding: 18px 60px 18px 60px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 580px;
-    height: 830px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -8179,11 +8502,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 686px;
-    width: 520px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -8191,28 +8514,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 11px 0px 4px 6px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 470px;
-    height: 44px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 470px;
-    height: 44px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -8224,7 +8547,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -8238,14 +8561,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -8260,13 +8583,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
-    font-size: 18px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -8338,7 +8661,315 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 626px) and (max-width: 640px) {
+@media only screen and (min-width: 638px) and (max-width: 641px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 130px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 52px;
+    margin-block-end: 38px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 56px;
+    font-size: 34px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 824px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 280px;
+    padding-left: 40px;
+    padding-top: 70px;
+  }
+  .right {
+    width: 260px;
+    margin-left: 280px;
+    padding: 80px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 250px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 642px) and (max-width: 658px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -8347,12 +8978,13 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -8369,11 +9001,12 @@ form p {
     font-family: "Rokkitt", sans-serif;
     margin: 120px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 54px;
-    margin-block-end: 44px;
+    font-size: 56px;
+    margin-block-end: 38px;
     font-weight: 900;
   }
   .first-block-main h2 {
@@ -8392,10 +9025,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 300px;
-    height: 50px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -8408,7 +9041,7 @@ form p {
 
   .second-block {
     margin-top: 814px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -8420,319 +9053,13 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 26px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    text-align: center;
-    padding: 0px 30px 50px 30px;
-  }
-  .second-block-main-text {
-    display: flex;
-    padding-bottom: 48px;
-    flex-wrap: wrap;
-  }
-  .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
-  }
-  .left {
-    flex: 1;
-    width: 300px;
-    padding-left: 50px;
-    padding-top: 0px;
-  }
-  .right {
-    width: 260px;
-    margin-left: 320px;
-    padding: 10px 10px 150px 0;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .second-block-main button {
-    display: none;
-  }
-  .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
-  }
-  form p {
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    padding: 18px 60px 18px 60px;
-    text-align: center;
-  }
-  #contactForm {
-    background-image: url("/image/Group\ 16.png");
-    width: 580px;
-    height: 830px;
-    margin: 0 auto;
-    position: relative;
-    border: 1px solid #dec1c7;
-    border-radius: 30px;
-    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(10px);
-  }
-  .form-inputs {
-    background-color: #fbfbfb;
-    height: 686px;
-    width: 520px;
-    border-radius: 30px;
-    position: absolute;
-    margin: 0px 40px 32px 30px;
-    border-radius: 30px;
-    background: #f9f6f6;
-    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0 24px;
-  }
-  .form-group label {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 11px 0px 4px 6px;
-  }
-  .form-group input {
-    width: 470px;
-    height: 44px;
-    border-radius: 30px;
-    border: 1px solid #eaeaea;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
-  }
-  .form-group select {
-    width: 470px;
-    height: 44px;
-    background: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 4px 10px 0px #ececec;
-    border: 1px solid #eaeaea;
-    padding: 0 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("/image/Vector.png");
-    background-repeat: no-repeat;
-    background-position: right 24px center;
-    background-size: 12px;
-    cursor: pointer;
-  }
-  .form-group select option {
-    color: #000;
-    background: white;
-    cursor: pointer;
-  }
-  .active {
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 470px;
-    height: 44px;
-    border: 1px solid #ff6381;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 26px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .active:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-  .disabled {
-    border-radius: 30px;
-    margin-top: 24px;
-    padding: 0px 24px;
-    color: white;
-    width: 470px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    position: absolute;
-    bottom: 26px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ffa1b3;
-    border: 1px solid #ffa1b3;
-    cursor: not-allowed;
-  }
-
-  .error-message {
-    color: red;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 13px;
-    padding: 2px 0 2px 15px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-repeat: no-repeat;
-    padding: 60px 0px 60px 0px;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-  .modal-content p {
-    padding-bottom: 10px;
-  }
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 54px;
-    border: 1px solid #ff6381;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 641px) and (max-width: 665px) {
-  main {
-    height: 100%;
-    overflow-x: hidden;
-  }
-  .main {
-    background-image: url("/image/Mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px 0px 0px 16px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head-img img {
-    width: 35px;
-    height: 45px;
-  }
-  .first-block-head div:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 120px 0px 0 0px;
-    color: #280309;
-    text-align: center;
-  }
-  .first-block-main h1 {
-    font-size: 58px;
-    margin-block-end: 44px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    margin: 0 56px;
-    font-size: 38px;
-    line-height: 38px;
-    font-weight: 900;
-    padding-bottom: 26px;
-  }
-  br {
-    display: none;
-  }
-  .first-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 340px;
-    height: 60px;
-    cursor: pointer;
     font-size: 24px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    margin-top: 834px;
-    margin-bottom: 70px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 0 10px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 26px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 50px 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -8741,25 +9068,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 300px;
-    padding-left: 50px;
-    padding-top: 0px;
+    padding-left: 40px;
+    padding-top: 100px;
   }
   .right {
-    width: 260px;
-    margin-left: 320px;
-    padding: 10px 10px 150px 0;
+    width: 270px;
+    margin-left: 300px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 18px;
+    font-family: "Barrow", sans-serif;
+    font-size: 21px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -8767,21 +9094,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 250px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    padding: 18px 60px 18px 60px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 580px;
-    height: 870px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -8791,11 +9118,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 716px;
-    width: 520px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -8803,28 +9130,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 12px 0px 4px 7px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 470px;
-    height: 46px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 470px;
-    height: 46px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -8836,7 +9163,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -8850,14 +9177,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -8872,13 +9199,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
-    font-size: 18px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -9073,21 +9400,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 170px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    padding: 18px 60px 18px 60px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 580px;
-    height: 870px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -9097,11 +9424,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 716px;
-    width: 520px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -9379,21 +9706,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 170px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    padding: 18px 60px 18px 60px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 580px;
-    height: 870px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -9403,11 +9730,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 716px;
-    width: 520px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -9685,21 +10012,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 170px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 28px;
-    padding: 18px 90px 18px 90px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 660px;
-    height: 900px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -9709,11 +10036,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 750px;
-    width: 600px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -9992,21 +10319,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 170px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 28px;
-    padding: 18px 90px 18px 90px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 660px;
-    height: 900px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -10016,11 +10343,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 750px;
-    width: 600px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -10271,7 +10598,7 @@ form p {
     display: flex;
     padding-bottom: 48px;
     flex-wrap: wrap;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 400;
   }
   .second-block-main-text .right p:nth-child(1),
@@ -10313,7 +10640,7 @@ form p {
   }
   form p {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
     font-size: 28px;
     padding: 18px 160px 18px 160px;
@@ -10349,7 +10676,7 @@ form p {
   }
   .form-group label {
     color: #000;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
@@ -10397,7 +10724,7 @@ form p {
     border: 1px solid #ff6381;
     font-size: 32px;
     font-weight: 500;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barrow", sans-serif;
     position: absolute;
     bottom: 26px;
     left: 50%;
