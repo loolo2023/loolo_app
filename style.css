@@ -11125,7 +11125,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 748px) and (max-width: 767px) {
+@media only screen and (min-width: 748px) and (max-width: 766px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -11134,12 +11134,13 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -11154,17 +11155,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 160px 0px 0 0px;
+    margin: 135px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 68px;
-    margin-block-end: 44px;
+    font-size: 64px;
+    margin-block-end: 58px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 80px;
+    margin: 0 90px;
     font-size: 42px;
     line-height: 42px;
     font-weight: 900;
@@ -11179,10 +11181,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
-    height: 60px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -11194,8 +11196,8 @@ form p {
   }
 
   .second-block {
-    margin-top: 974px;
-    margin-bottom: 70px;
+    margin-top: 984px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -11207,13 +11209,13 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 26px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 100px 80px 10px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -11222,26 +11224,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
-    width: 360px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 90px;
+    width: 260px;
+    padding-left: 20px;
+    padding-top: 120px;
   }
   .right {
-    width: 300px;
-    margin-left: 280px;
-    padding: 10px 10px 180px 0;
+    width: 280px;
+    margin-left: 260px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 22px;
+    font-family: "Barrow", sans-serif;
+    font-size: 23px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -11249,21 +11250,21 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 240px;
-    padding-bottom: 42px;
+    margin-top: 250px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
-    font-family: "Rokkitt", sans-serif;
+    font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 30px;
-    padding: 18px 90px 18px 90px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 700px;
-    height: 960px;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -11273,11 +11274,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    height: 780px;
-    width: 640px;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 40px 32px 30px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -11285,28 +11286,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 14px 0px 4px 10px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 600px;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 600px;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -11318,7 +11319,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -11332,14 +11333,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 600px;
-    height: 48px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -11354,13 +11355,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 600px;
-    height: 48px;
-    font-size: 20px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -11371,7 +11372,7 @@ form p {
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     padding: 2px 0 2px 15px;
   }
   .modal {
@@ -11431,6 +11432,9 @@ form p {
     transition: background 0.3s, border 0.3s;
     cursor: pointer;
   }
+}
+@media screen and (max-width: 767px) {
+  /* Тут вказуєте стилі, які мають застосовуватись для планшетів */
 }
 @media only screen and (min-width: 1028px) and (max-width: 1077px) {
   .main {
