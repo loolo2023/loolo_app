@@ -9277,7 +9277,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 666px) and (max-width: 690px) {
+@media only screen and (min-width: 659px) and (max-width: 672px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -9286,12 +9286,13 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -9306,19 +9307,20 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 120px 0px 0 0px;
+    margin: 135px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 58px;
-    margin-block-end: 44px;
+    font-size: 56px;
+    margin-block-end: 38px;
     font-weight: 900;
   }
   .first-block-main h2 {
     margin: 0 56px;
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 36px;
+    line-height: 30px;
     font-weight: 900;
     padding-bottom: 26px;
   }
@@ -9331,10 +9333,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
-    height: 60px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -9346,8 +9348,8 @@ form p {
   }
 
   .second-block {
-    margin-top: 894px;
-    margin-bottom: 70px;
+    margin-top: 844px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -9359,13 +9361,13 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 24px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 50px 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -9374,25 +9376,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 300px;
-    padding-left: 50px;
-    padding-top: 0px;
+    padding-left: 40px;
+    padding-top: 100px;
   }
   .right {
-    width: 260px;
-    margin-left: 320px;
-    padding: 10px 10px 180px 0;
+    width: 270px;
+    margin-left: 300px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 18px;
+    font-family: "Barrow", sans-serif;
+    font-size: 21px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -9400,7 +9402,7 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 170px;
+    margin-top: 250px;
     padding-bottom: 16px;
   }
   form p {
@@ -9436,28 +9438,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 12px 0px 4px 7px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 470px;
-    height: 46px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 470px;
-    height: 46px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -9469,7 +9471,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -9483,14 +9485,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -9505,13 +9507,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
-    font-size: 18px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -9583,7 +9585,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 691px) and (max-width: 703px) {
+@media only screen and (min-width: 673px) and (max-width: 692px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -9592,12 +9594,13 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -9612,19 +9615,20 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 130px 0px 0 0px;
+    margin: 125px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 60px;
-    margin-block-end: 44px;
+    font-size: 58px;
+    margin-block-end: 48px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 56px;
+    margin: 0 65px;
     font-size: 38px;
-    line-height: 38px;
+    line-height: 30px;
     font-weight: 900;
     padding-bottom: 26px;
   }
@@ -9637,10 +9641,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
-    height: 60px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -9652,8 +9656,8 @@ form p {
   }
 
   .second-block {
-    margin-top: 894px;
-    margin-bottom: 70px;
+    margin-top: 874px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -9671,7 +9675,7 @@ form p {
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 80px 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -9680,25 +9684,333 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
     width: 300px;
-    padding-left: 30px;
-    padding-top: 0px;
+    padding-left: 40px;
+    padding-top: 100px;
+  }
+  .right {
+    width: 270px;
+    margin-left: 300px;
+    padding: 110px 10px 80px 0;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-main button {
+    display: none;
+  }
+  .third-block {
+    margin-top: 250px;
+    padding-bottom: 16px;
+  }
+  form p {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
+    text-align: center;
+  }
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 370px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 544px;
+    width: 320px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 35px 20px 25px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .form-group label {
+    color: #000;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 0px 4px 6px;
+  }
+  .form-group input {
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
+  }
+  .form-group select {
+    width: 280px;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 8px;
+    cursor: pointer;
+  }
+  .form-group select option {
+    color: #000;
+    background: white;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    border: 1px solid #ff6381;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .active:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+  .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    color: red;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 13px;
+    padding: 2px 0 2px 15px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 60%;
+    height: 54px;
+    border: 1px solid #ff6381;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 693px) and (max-width: 711px) {
+  main {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .main {
+    background-image: url("/image/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100%;
+  }
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head-img img {
+    width: 35px;
+    height: 45px;
+  }
+  .first-block-head div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 125px 0px 0 0px;
+    color: #280309;
+
+    text-align: center;
+  }
+  .first-block-main h1 {
+    font-size: 58px;
+    margin-block-end: 58px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    margin: 0 65px;
+    font-size: 38px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 26px;
+  }
+  br {
+    display: none;
+  }
+  .first-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .first-block-main button:hover,
+  .second-block-main button:hover {
+    background: #e94666;
+    border: 1px solid #e94666;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .second-block {
+    margin-top: 904px;
+    margin-bottom: 150px;
+  }
+  .second-block-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    text-align: start;
+  }
+
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .second-block-main-text {
+    display: flex;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .second-block-main-text .right p:nth-child(1),
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
+  }
+  .left {
+    flex: 1;
+    width: 260px;
+    padding-left: 20px;
+    padding-top: 100px;
   }
   .right {
     width: 280px;
-    margin-left: 300px;
-    padding: 10px 10px 150px 0;
+    margin-left: 260px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-family: "Barrow", sans-serif;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -9706,7 +10018,7 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 170px;
+    margin-top: 250px;
     padding-bottom: 16px;
   }
   form p {
@@ -9742,28 +10054,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 12px 0px 4px 7px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 470px;
-    height: 46px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 470px;
-    height: 46px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -9775,7 +10087,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -9789,14 +10101,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -9811,13 +10123,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 470px;
-    height: 44px;
-    font-size: 18px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -9828,7 +10140,7 @@ form p {
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     padding: 2px 0 2px 15px;
   }
   .modal {
@@ -9889,7 +10201,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 704px) and (max-width: 727px) {
+@media only screen and (min-width: 712px) and (max-width: 721px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -9898,12 +10210,13 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -9918,19 +10231,20 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 140px 0px 0 0px;
+    margin: 135px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
-    font-size: 64px;
-    margin-block-end: 44px;
+    font-size: 58px;
+    margin-block-end: 58px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 56px;
-    font-size: 42px;
-    line-height: 42px;
+    margin: 0 65px;
+    font-size: 38px;
+    line-height: 30px;
     font-weight: 900;
     padding-bottom: 26px;
   }
@@ -9943,10 +10257,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
-    height: 60px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -9958,8 +10272,8 @@ form p {
   }
 
   .second-block {
-    margin-top: 914px;
-    margin-bottom: 70px;
+    margin-top: 934px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -9977,7 +10291,7 @@ form p {
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 90px 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -9986,25 +10300,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
-    width: 300px;
-    padding-left: 0px;
-    padding-top: 0px;
+    width: 260px;
+    padding-left: 20px;
+    padding-top: 110px;
   }
   .right {
-    width: 290px;
-    margin-left: 280px;
-    padding: 10px 10px 180px 0;
+    width: 280px;
+    margin-left: 260px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-family: "Barrow", sans-serif;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -10012,7 +10326,7 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 170px;
+    margin-top: 250px;
     padding-bottom: 16px;
   }
   form p {
@@ -10048,28 +10362,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 18px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 14px 0px 4px 10px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 550px;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 550px;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -10081,7 +10395,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -10095,14 +10409,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 550px;
-    height: 48px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -10117,13 +10431,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 550px;
-    height: 48px;
-    font-size: 20px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -10134,7 +10448,7 @@ form p {
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     padding: 2px 0 2px 15px;
   }
   .modal {
@@ -10195,7 +10509,7 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 728px) and (max-width: 747px) {
+@media only screen and (min-width: 722px) and (max-width: 732px) {
   main {
     height: 100%;
     overflow-x: hidden;
@@ -10204,12 +10518,13 @@ form p {
     background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
@@ -10224,17 +10539,18 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 140px 0px 0 0px;
+    margin: 115px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
     font-size: 64px;
-    margin-block-end: 44px;
+    margin-block-end: 58px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 56px;
+    margin: 0 84px;
     font-size: 42px;
     line-height: 42px;
     font-weight: 900;
@@ -10249,10 +10565,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
-    height: 60px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -10264,8 +10580,8 @@ form p {
   }
 
   .second-block {
-    margin-top: 964px;
-    margin-bottom: 70px;
+    margin-top: 934px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -10283,7 +10599,7 @@ form p {
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 70px 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
@@ -10292,26 +10608,25 @@ form p {
   }
   .second-block-main-text .right p:nth-child(1),
   .second-block-main-text .left p:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 22px;
   }
   .left {
     flex: 1;
-    width: 320px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 70px;
+    width: 260px;
+    padding-left: 20px;
+    padding-top: 110px;
   }
   .right {
-    width: 300px;
-    margin-left: 280px;
-    padding: 10px 10px 180px 0;
+    width: 280px;
+    margin-left: 260px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 22px;
+    font-family: "Barrow", sans-serif;
+    font-size: 23px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
@@ -10319,7 +10634,7 @@ form p {
     display: none;
   }
   .third-block {
-    margin-top: 170px;
+    margin-top: 250px;
     padding-bottom: 16px;
   }
   form p {
@@ -10355,28 +10670,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 18px;
+    font-family: "Barrow", sans-serif;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 14px 0px 4px 10px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 550px;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 550px;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -10388,7 +10703,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -10402,14 +10717,14 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 550px;
-    height: 48px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -10424,13 +10739,13 @@ form p {
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 550px;
-    height: 48px;
-    font-size: 20px;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffa1b3;
@@ -10441,7 +10756,7 @@ form p {
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     padding: 2px 0 2px 15px;
   }
   .modal {
@@ -10502,29 +10817,27 @@ form p {
     cursor: pointer;
   }
 }
-
-/* @media only screen and  (max-width: 747px) {
+@media only screen and (min-width: 733px) and (max-width: 747px) {
   main {
     height: 100%;
     overflow-x: hidden;
   }
- 
   .main {
-    background-image: url("/image/Mobile\ \(6\).png");
+    background-image: url("/image/Mobile.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
- 
+    min-height: 100%;
   }
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 0px 0px 16px;
+    padding: 20px 0px 0px 20px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
-  .first-block-head-img img{
+  .first-block-head-img img {
     width: 35px;
     height: 45px;
   }
@@ -10534,23 +10847,24 @@ form p {
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 140px 0px 0 0px;
+    margin: 125px 0px 0 0px;
     color: #280309;
+
     text-align: center;
   }
   .first-block-main h1 {
     font-size: 64px;
-    margin-block-end: 44px;
+    margin-block-end: 58px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 56px;
+    margin: 0 90px;
     font-size: 42px;
     line-height: 42px;
     font-weight: 900;
     padding-bottom: 26px;
   }
-  br{
+  br {
     display: none;
   }
   .first-block-main button {
@@ -10559,10 +10873,10 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 340px;
-    height: 60px;
+    width: 240px;
+    height: 46px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
@@ -10572,10 +10886,10 @@ form p {
     border: 1px solid #e94666;
     transition: background 0.3s, border 0.3s;
   }
-  
+
   .second-block {
     margin-top: 964px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
   }
   .second-block-main {
     display: flex;
@@ -10583,6 +10897,7 @@ form p {
     padding: 0 10px 0 10px;
     text-align: start;
   }
+
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
@@ -10592,65 +10907,56 @@ form p {
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0px 30px 70px 30px;
+    padding: 0 40px;
   }
   .second-block-main-text {
     display: flex;
     padding-bottom: 48px;
     flex-wrap: wrap;
-    font-family: "Barrow", sans-serif;
-    font-weight: 400;
   }
   .second-block-main-text .right p:nth-child(1),
-  .second-block-main-text .left p:nth-child(1){
-    padding-bottom: 42px;
+  .second-block-main-text .left p:nth-child(1) {
+    padding-bottom: 22px;
   }
   .left {
-  display: flex;
-  flex-direction: row;
- 
+    flex: 1;
+    width: 260px;
+    padding-left: 20px;
+    padding-top: 120px;
   }
   .right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  }
-  .right img {
-    max-width: 40%; 
-    object-fit: cover;
-  }
-  .rigth-text{
-    margin: 0 30px 100px 30px;
+    width: 280px;
+    margin-left: 260px;
+    padding: 110px 10px 80px 0;
   }
   .second-block-main p {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 22px;
+    font-family: "Barrow", sans-serif;
+    font-size: 23px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: justify;
   }
-  .second-block-main button{
+  .second-block-main button {
     display: none;
   }
   .third-block {
-    margin-top: 300px;
-    padding-bottom: 32px;
+    margin-top: 250px;
+    padding-bottom: 16px;
   }
   form p {
     color: #000;
     font-family: "Barrow", sans-serif;
     font-weight: 700;
-    font-size: 28px;
-    padding: 18px 160px 18px 160px;
+    font-size: 15px;
+    padding: 10px 55px 10px 55px;
     text-align: center;
   }
   #contactForm {
     background-image: url("/image/Group\ 16.png");
-    width: 96%;
-    min-height: 1150px;
-    height: 100%;
+    width: 370px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     border: 1px solid #dec1c7;
@@ -10660,11 +10966,11 @@ form p {
   }
   .form-inputs {
     background-color: #fbfbfb;
-    min-height: 979px;
-    width: 90%;
+    height: 544px;
+    width: 320px;
     border-radius: 30px;
     position: absolute;
-    margin: 0px 32px 32px 32px;
+    margin: 0px 35px 20px 25px;
     border-radius: 30px;
     background: #f9f6f6;
     box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
@@ -10672,28 +10978,28 @@ form p {
   .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   .form-group label {
     color: #000;
     font-family: "Barrow", sans-serif;
-    font-size: 24px;
+    font-size: 11px;
     font-weight: 500;
     line-height: normal;
-    padding: 14px 40px 4px 5px;
+    padding: 8px 0px 4px 6px;
   }
   .form-group input {
-    width: 100%;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     border-radius: 30px;
     border: 1px solid #eaeaea;
     background: #fff;
     box-shadow: 0px 4px 10px 0px #ececec;
-    padding: 0 32px 0 16px;
+    padding: 0 24px 0 16px;
   }
   .form-group select {
-    width: 100%;
-    height: 48px;
+    width: 280px;
+    height: 30px;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0px 4px 10px 0px #ececec;
@@ -10705,7 +11011,7 @@ form p {
     background-image: url("/image/Vector.png");
     background-repeat: no-repeat;
     background-position: right 24px center;
-    background-size: 12px;
+    background-size: 8px;
     cursor: pointer;
   }
   .form-group select option {
@@ -10713,20 +11019,20 @@ form p {
     background: white;
     cursor: pointer;
   }
-  .active, .disabled  {
+  .active {
     border-radius: 30px;
     background: #ff6381;
     margin-top: 24px;
     padding: 0px 24px;
     color: white;
-    width: 92%;
-    height: 75px;
+    width: 280px;
+    height: 36px;
     border: 1px solid #ff6381;
-    font-size: 32px;
+    font-size: 17px;
     font-weight: 500;
-    font-family: "Barrow", sans-serif;
+    font-family: "Noto Sans Hebrew", sans-serif;
     position: absolute;
-    bottom: 26px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -10737,15 +11043,28 @@ form p {
     transition: background 0.3s, border 0.3s;
   }
   .disabled {
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 0px 24px;
+    color: white;
+    width: 280px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #ffa1b3;
     border: 1px solid #ffa1b3;
     cursor: not-allowed;
   }
- 
+
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     padding: 2px 0 2px 15px;
   }
   .modal {
@@ -10776,7 +11095,7 @@ form p {
     font-weight: 700;
     border-radius: 30px;
   }
-  .modal-content  p{
+  .modal-content p {
     padding-bottom: 10px;
   }
   .close {
@@ -10804,8 +11123,8 @@ form p {
     border: 1px solid #e94666;
     transition: background 0.3s, border 0.3s;
     cursor: pointer;
-  } 
-} */
+  }
+}
 @media only screen and (min-width: 748px) and (max-width: 767px) {
   main {
     height: 100%;
