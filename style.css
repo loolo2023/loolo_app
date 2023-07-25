@@ -11166,8 +11166,8 @@ form p {
     font-weight: 900;
   }
   .first-block-main h2 {
-    margin: 0 90px;
-    font-size: 42px;
+    margin: 0 88px;
+    font-size: 40px;
     line-height: 42px;
     font-weight: 900;
     padding-bottom: 26px;
@@ -11196,7 +11196,7 @@ form p {
   }
 
   .second-block {
-    margin-top: 984px;
+    margin-top: 964px;
     margin-bottom: 150px;
   }
   .second-block-main {
@@ -11209,13 +11209,13 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 25px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 60px 0 20px;
   }
   .second-block-main-text {
     display: flex;
@@ -12293,7 +12293,7 @@ form p {
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 34px;
+    font-size: 36px;
     line-height: 36px;
     margin-bottom: 15px;
     font-weight: 900;
@@ -12336,7 +12336,7 @@ form p {
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 22px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
