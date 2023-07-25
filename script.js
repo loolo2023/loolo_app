@@ -1,5 +1,6 @@
 const scrollButton1 = document.getElementById("scrollButton1");
 const scrollButton2 = document.getElementById("scrollButton2");
+const scrollButton3 = document.getElementById("scrollButton3");
 const myForm = document.getElementById("contactForm");
 const submitButton = document.getElementById("submitButton");
 
@@ -12,6 +13,9 @@ scrollButton1.addEventListener("click", () => {
 });
 
 scrollButton2.addEventListener("click", () => {
+  scrollToForm();
+});
+scrollButton3.addEventListener("click", () => {
   scrollToForm();
 });
 
@@ -66,7 +70,6 @@ function handleFormSubmit(event) {
     };
     axios
       .post(
-        
         `https://script.google.com/macros/s/AKfycbxWGDzagVCdjZciDhgMK4L2EjaNgsr_CXdEEovAv2pAPwxfyEuUX3nDOklGVZDeu7hm/exec/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.email}&p8=${formData.social}`
       )
       .then((response) => {

@@ -175,7 +175,7 @@ main {
   justify-content: end;
   margin-top: 484px;
 }
-.second-block-tablet{
+.second-block-tablet {
   display: none;
 }
 .second-block-main {
@@ -11543,7 +11543,7 @@ form p {
     cursor: pointer;
   }
 }
-@media screen and (min-width: 767px){
+@media screen and (min-width: 767px) {
   .main {
     background-image: url("/image/tablet\ \(2\).png");
     background-repeat: no-repeat;
@@ -11607,7 +11607,7 @@ form p {
     border: 1px solid #e94666;
     transition: background 0.3s, border 0.3s;
   }
-  
+
   .second-block-tablet {
     display: flex;
     flex-direction: column;
@@ -11622,7 +11622,7 @@ form p {
     justify-content: space-between;
     padding: 0 10px;
   }
-  
+
   .second-block-main-img {
     flex: 3;
     min-height: 400px;
@@ -11632,19 +11632,24 @@ form p {
     position: relative;
   }
   .second-block-main-img div {
-  position: relative;
-  top: 0;
-  width: 50%;
-  height: 100%;
+    position: relative;
+    top: 0;
+    width: 50%;
+    height: 100%;
   }
   .second-block-main-img div:nth-child(1) img {
-    left: 0; 
+    left: 0;
   }
-  .second-block-main-img div:nth-child(2) img{
+  .second-block-main-img div:nth-child(2) img {
     right: 0;
   }
   .second-block-main-img img {
     max-width: 135%;
+    max-height: 100%;
+    position: absolute;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    max-width: 145%;
     max-height: 100%;
     position: absolute;
   }
@@ -11666,7 +11671,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -11679,7 +11684,7 @@ form p {
   }
   .second-block-main-button {
     text-align: right;
-    margin: 2em 4em 0 0 ;
+    margin: 2em 4em 0 0;
   }
   .third-block {
     margin-top: 120px;
@@ -11822,8 +11827,8 @@ form p {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    max-height: 80%;
+    width: 50%;
+    max-height: 60%;
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
     background-repeat: no-repeat;
@@ -11831,7 +11836,7 @@ form p {
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
     border-radius: 30px;
   }
@@ -11865,7 +11870,7 @@ form p {
     cursor: pointer;
   }
 }
-@media screen and (min-width: 785px){
+@media screen and (min-width: 785px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 130px 80px 0 33px;
@@ -11878,7 +11883,7 @@ form p {
     margin-top: 350px;
   }
 }
-@media screen and (min-width: 823px){
+@media screen and (min-width: 823px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 140px 80px 0 33px;
@@ -11906,7 +11911,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -11935,7 +11940,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 837px){
+@media screen and (min-width: 837px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 140px 80px 0 33px;
@@ -11963,7 +11968,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -11992,7 +11997,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 879px){
+@media screen and (min-width: 879px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 155px 80px 0 33px;
@@ -12020,7 +12025,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -12049,7 +12054,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 910px){
+@media screen and (min-width: 910px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 165px 80px 0 33px;
@@ -12077,7 +12082,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -12106,7 +12111,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 925px){
+@media screen and (min-width: 925px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 165px 80px 0 33px;
@@ -12125,7 +12130,7 @@ form p {
     margin-right: 380px;
   }
 }
-@media screen and (min-width: 945px){
+@media screen and (min-width: 945px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 175px 80px 0 33px;
@@ -12153,7 +12158,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -12182,7 +12187,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 970px){
+@media screen and (min-width: 970px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 175px 80px 0 33px;
@@ -12210,7 +12215,7 @@ form p {
     padding-bottom: 24px;
     padding-right: 32px;
   }
-  
+
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
@@ -12239,7 +12244,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 1001px){
+@media screen and (min-width: 1001px) {
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
     margin: 190px 80px 0 33px;
@@ -12295,7 +12300,7 @@ form p {
     font-weight: 500;
   }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
@@ -12325,13 +12330,13 @@ form p {
     line-height: 34px;
     margin-bottom: 16px;
   }
-  .first-block-main br{
+  .first-block-main br {
     display: block;
   }
   .second-block-main-img div:nth-child(1) img {
-    left: 0; 
+    left: 0;
   }
-  .second-block-main-img div:nth-child(2) img{
+  .second-block-main-img div:nth-child(2) img {
     right: 0;
   }
   .second-block-main h3 {
@@ -12352,20 +12357,24 @@ form p {
     font-weight: 500;
     line-height: normal;
     text-align: justify;
-    
   }
   .second-block-tablet {
     margin-top: 480px;
   }
   .second-block-main-img {
-  margin-left: 61px;
-}
-.second-block-main-text {
-  padding: 0;
-}
-.second-block-main-img img{
-  max-width: 175%;
-}
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    max-width: 155%;
+    max-height: 100%;
+    position: absolute;
+  }
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -12380,11 +12389,14 @@ form p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block-main button{
+  .second-block-main button {
     margin-right: 100px;
   }
+  .third-block {
+    margin-top: 250px;
+  }
 }
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1100px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
@@ -12414,13 +12426,13 @@ form p {
     line-height: 34px;
     margin-bottom: 16px;
   }
-  .first-block-main br{
+  .first-block-main br {
     display: block;
   }
   .second-block-main-img div:nth-child(1) img {
-    left: 50%; 
+    left: 50%;
   }
-  .second-block-main-img div:nth-child(2) img{
+  .second-block-main-img div:nth-child(2) img {
     right: 0;
   }
   .second-block-main h3 {
@@ -12441,20 +12453,19 @@ form p {
     font-weight: 500;
     line-height: normal;
     text-align: justify;
-    
   }
   .second-block-tablet {
     margin-top: 480px;
   }
   .second-block-main-img {
-  margin-left: 61px;
-}
-.second-block-main-text {
-  padding: 0;
-}
-.second-block-main-img img{
-  max-width: 175%;
-}
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+  }
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -12469,11 +12480,32 @@ form p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block-main button{
+  .second-block-main button {
     margin-right: 100px;
   }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-height: 60%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .third-block {
+    margin-top: 250px;
+  }
 }
-@media screen and (min-width: 1269px){
+@media screen and (min-width: 1269px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
@@ -12503,13 +12535,13 @@ form p {
     line-height: 40px;
     margin-bottom: 16px;
   }
-  .first-block-main br{
+  .first-block-main br {
     display: block;
   }
   .second-block-main-img div:nth-child(1) img {
-    left: 220px; 
+    left: 220px;
   }
-  .second-block-main-img div:nth-child(2) img{
+  .second-block-main-img div:nth-child(2) img {
     right: 0;
   }
   .second-block-main h3 {
@@ -12530,20 +12562,19 @@ form p {
     font-weight: 500;
     line-height: normal;
     text-align: justify;
-    
   }
   .second-block-tablet {
     margin-top: 550px;
   }
   .second-block-main-img {
-  margin-left: 61px;
-}
-.second-block-main-text {
-  padding: 0;
-}
-.second-block-main-img img{
-  max-width: 175%;
-}
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+  }
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -12558,11 +12589,11 @@ form p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block-main button{
+  .second-block-main button {
     margin-right: 100px;
   }
   .third-block {
-    margin-top: 175px;
+    margin-top: 250px;
     padding-bottom: 16px;
   }
   form p {
@@ -12617,7 +12648,7 @@ form p {
     box-shadow: 0px 4px 10px 0px #ececec;
     padding: 0 24px 0 16px;
   }
-  
+
   .active {
     border-radius: 30px;
     background: #ff6381;
@@ -12702,8 +12733,8 @@ form p {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
+    width: 50%;
+    max-height: 60%;
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
     background-repeat: no-repeat;
@@ -12715,7 +12746,7 @@ form p {
     font-weight: 700;
     border-radius: 30px;
   }
-  
+
   .close {
     display: block;
     position: relative;
@@ -12743,7 +12774,7 @@ form p {
     cursor: pointer;
   }
 }
-@media screen and (min-width: 1345px){
+@media screen and (min-width: 1345px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
@@ -12773,13 +12804,13 @@ form p {
     line-height: 40px;
     margin-bottom: 16px;
   }
-  .first-block-main br{
+  .first-block-main br {
     display: block;
   }
   .second-block-main-img div:nth-child(1) img {
-    left: 150px; 
+    left: 150px;
   }
-  .second-block-main-img div:nth-child(2) img{
+  .second-block-main-img div:nth-child(2) img {
     right: 0;
   }
   .second-block-main h3 {
@@ -12800,21 +12831,20 @@ form p {
     font-weight: 500;
     line-height: normal;
     text-align: justify;
-    
   }
   .second-block-tablet {
     margin-top: 550px;
   }
   .second-block-main-img {
-  margin-left: 61px;
-}
-.second-block-main-text {
-  margin-right: 170px;
-  padding: 0;
-}
-.second-block-main-img img{
-  max-width: 175%;
-}
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 170px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+  }
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -12829,15 +12859,15 @@ form p {
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block-main button{
+  .second-block-main button {
     margin-right: 100px;
   }
   .third-block {
-    margin-top: 175px;
+    margin-top: 250px;
     padding-bottom: 16px;
   }
 }
-@media screen and (min-width: 1449px){
+@media screen and (min-width: 1449px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
@@ -12850,395 +12880,6 @@ form p {
   .first-block-head img {
     height: 60px;
     width: 45px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 250px 80px 0 100px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 66px;
-    line-height: 0px;
-    margin-block-end: 30px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 38px;
-    line-height: 40px;
-    margin-bottom: 16px;
-  }
-  .first-block-main br{
-    display: block;
-  }
-  .second-block-main-img div:nth-child(1) img {
-    left: 150px; 
-  }
-  .second-block-main-img div:nth-child(2) img{
-    right: 0;
-  }
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 26px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-    padding-right: 39px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-    
-  }
-  .second-block-tablet {
-    margin-top: 550px;
-  }
-  .second-block-main-img {
-  margin-left: 61px;
-}
-.second-block-main-text {
-  margin-right: 170px;
-  padding: 0;
-}
-.second-block-main-img img{
-  max-width: 175%;
-}
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 180px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block-main button{
-    margin-right: 100px;
-  }
-  .third-block {
-    margin-top: 175px;
-    padding-bottom: 16px;
-  }
-}
-@media only screen and (min-width: 1610px) and (max-width: 1645px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 100px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 240px 80px 0 100px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 82px;
-    line-height: 0px;
-    margin-block-end: 58px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 48px;
-    line-height: 60px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 240px;
-    height: 80px;
-    cursor: pointer;
-    font-size: 30px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 560px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 120px 0 80px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 41px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 630px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 160px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1646px) and (max-width: 1699px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 100px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 260px 80px 0 100px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 84px;
-    line-height: 0px;
-    margin-block-end: 60px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 50px;
-    line-height: 62px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 240px;
-    height: 80px;
-    cursor: pointer;
-    font-size: 30px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 580px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 42px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 630px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 200px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1700px) and (max-width: 1754px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 100px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
@@ -13246,16 +12887,56 @@ form p {
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 88px;
+    font-size: 72px;
     line-height: 0px;
-    margin-block-end: 66px;
+    margin-block-end: 36px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 54px;
-    line-height: 64px;
-    margin-bottom: 30px;
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 250px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
     font-weight: 900;
+    font-size: 30px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 680px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 170px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
   }
   .first-block-main button,
   .second-block-main button {
@@ -13264,84 +12945,41 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 280px;
-    height: 90px;
+    width: 200px;
+    height: 60px;
     cursor: pointer;
-    font-size: 36px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 590px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 43px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 650px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
+  .second-block-main button {
+    margin-right: 100px;
   }
   .third-block {
-    margin-top: 200px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 250px;
+    padding-bottom: 16px;
   }
   .modal-content {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
+    width: 30%;
+    max-height: 50%;
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
     background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
+    font-size: 36px;
     font-weight: 700;
     border-radius: 30px;
   }
-
+  .modal-content p {
+    padding-bottom: 10px;
+  }
   .close {
     display: block;
     position: relative;
@@ -13350,10 +12988,10 @@ form p {
     margin-top: 24px;
     padding: 12px 24px;
     color: white;
-    width: 40%;
-    height: 100px;
+    width: 30%;
+    height: 54px;
     border: 1px solid #ff6381;
-    font-size: 44px;
+    font-size: 20px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -13361,47 +12999,77 @@ form p {
     transform: translateX(-50%);
     cursor: pointer;
   }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
 }
-@media only screen and (min-width: 1755px) and (max-width: 1819px) {
-  .main {
-    background-size: cover;
-  }
+@media screen and (min-width: 1548px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 100px;
+    padding: 40px 0px 0 120px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
   .first-block-head img {
-    height: 100px;
-    width: 80px;
+    height: 80px;
+    width: 63px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 280px 80px 0 100px;
+    margin: 250px 80px 0 140px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 88px;
+    font-size: 72px;
     line-height: 0px;
-    margin-block-end: 70px;
+    margin-block-end: 36px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 58px;
-    line-height: 64px;
-    margin-bottom: 30px;
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 350px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
     font-weight: 900;
+    font-size: 30px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 680px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 170px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
   }
   .first-block-main button,
   .second-block-main button {
@@ -13410,84 +13078,456 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 280px;
-    height: 90px;
+    width: 200px;
+    height: 60px;
     cursor: pointer;
-    font-size: 36px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 610px;
+  .second-block-main button {
+    margin-right: 100px;
   }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 60px;
-    text-align: start;
+  .third-block {
+    margin-top: 250px;
+    padding-bottom: 16px;
   }
-
+}
+@media screen and (min-width: 1648px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 120px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 300px 80px 0 180px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 74px;
+    line-height: 0px;
+    margin-block-end: 36px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 350px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 30px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 670px;
-    padding-bottom: 48px;
+    padding-right: 39px;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    margin-top: 200px;
+  .second-block-tablet {
+    margin-top: 780px;
   }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 240px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 250px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 1713px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 140px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 300px 80px 0 200px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 74px;
+    line-height: 0px;
+    margin-block-end: 36px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 350px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 830px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 240px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+    min-height: 500px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 250px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 1822px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 160px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 330px 80px 0 240px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 78px;
+    line-height: 0px;
+    margin-block-end: 36px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 430px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 830px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 240px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+    min-height: 500px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 350px;
+    padding-bottom: 16px;
   }
   .modal-content {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
+    width: 35%;
+    max-height: 60%;
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
     background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
+    font-size: 40px;
     font-weight: 700;
     border-radius: 30px;
   }
-
+  .modal-content p {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background: #ff6381;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: white;
+    width: 35%;
+    height: 58px;
+    border: 1px solid #ff6381;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1902px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 160px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 350px 80px 0 260px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 80px;
+    line-height: 0px;
+    margin-block-end: 36px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 420px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 900px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 240px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 200%;
+    min-height: 600px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 400px;
+    padding-bottom: 16px;
+  }
+  .modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    max-height: 90%;
+    overflow: auto;
+    background-image: url("/image/Frame\ 122.png");
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: #000;
+    font-family: "Rokkitt", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  .modal-content p {
+    padding-bottom: 10px;
+  }
   .close {
     display: block;
     position: relative;
@@ -13497,9 +13537,9 @@ form p {
     padding: 12px 24px;
     color: white;
     width: 40%;
-    height: 100px;
+    height: 60px;
     border: 1px solid #ff6381;
-    font-size: 44px;
+    font-size: 24px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -13507,91 +13547,243 @@ form p {
     transform: translateX(-50%);
     cursor: pointer;
   }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
 }
-@media only screen and (min-width: 1820px) and (max-width: 1899px) {
-  .main {
-    background-size: cover;
-  }
+@media screen and (min-width: 1999px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 120px;
+    padding: 40px 0px 0 180px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
   .first-block-head img {
-    height: 100px;
-    width: 80px;
+    height: 80px;
+    width: 63px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 300px 80px 0 120px;
+    margin: 380px 80px 0 280px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 84px;
+    line-height: 0px;
+    margin-block-end: 36px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 490px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 900px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 240px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 200%;
+    min-height: 600px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 220px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 400px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 2068px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 200px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 400px 80px 0 300px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 86px;
+    line-height: 0px;
+    margin-block-end: 40px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 490px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 900px;
+  }
+  .second-block-main-img {
+    margin-left: 61px;
+  }
+  .second-block-main-text {
+    margin-right: 320px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 200%;
+    min-height: 600px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 240px;
+    height: 68px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 400px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 2149px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 200px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 420px 80px 0 300px;
     color: #280309;
   }
   .first-block-main h1 {
     font-size: 90px;
     line-height: 0px;
-    margin-block-end: 74px;
+    margin-block-end: 50px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 30px;
-    font-weight: 900;
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 16px;
   }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 280px;
-    height: 90px;
-    cursor: pointer;
-    font-size: 36px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
+  .first-block-main br {
+    display: block;
   }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 650px;
+  .second-block-main-img div:nth-child(1) img {
+    left: 490px;
   }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 60px;
-    text-align: start;
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
   }
-
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
-    font-size: 46px;
+    font-size: 38px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 730px;
-    padding-bottom: 48px;
+    padding-right: 39px;
   }
   .second-block-main p {
     color: #000;
@@ -13602,98 +13794,19 @@ form p {
     line-height: normal;
     text-align: justify;
   }
-  .third-block {
-    margin-top: 200px;
+  .second-block-tablet {
+    margin-top: 1100px;
   }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  .second-block-main-img {
+    margin-left: 61px;
   }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
+  .second-block-main-text {
+    margin-right: 320px;
+    padding: 0;
   }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1900px) and (max-width: 1959px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 120px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 320px 80px 0 120px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 94px;
-    line-height: 0px;
-    margin-block-end: 74px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 30px;
-    font-weight: 900;
+  .second-block-main-img img {
+    max-width: 200%;
+    min-height: 700px;
   }
   .first-block-main button,
   .second-block-main button {
@@ -13702,1273 +13815,301 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 280px;
-    height: 90px;
+    width: 240px;
+    height: 68px;
     cursor: pointer;
-    font-size: 36px;
+    font-size: 24px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 670px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 48px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 730px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 200px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1960px) and (max-width: 2024px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 120px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 320px 80px 0 120px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 94px;
-    line-height: 0px;
-    margin-block-end: 74px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
   .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 280px;
-    height: 90px;
-    cursor: pointer;
-    font-size: 36px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 720px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 48px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 730px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 200px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 2025px) and (max-width: 2089px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 140px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 360px 80px 0 140px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 100px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 320px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 700px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 160px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 48px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 800px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 250px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 2090px) and (max-width: 2154px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 140px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 400px 80px 0 140px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 100px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 320px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 720px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 160px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 48px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 800px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 250px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 2155px) and (max-width: 2249px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 140px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 380px 80px 0 140px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 110px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 320px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 780px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 160px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 820px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 250px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 88px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 2250px) and (max-width: 2300px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 140px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 120px;
-    width: 100px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 380px 80px 0 140px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 110px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 66px;
-    line-height: 78px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 360px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 48px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 820px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 200px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 840px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 250px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 108px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 2301px) and (max-width: 2449px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 120px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 120px;
-    width: 100px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 400px 80px 0 120px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 120px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 80px;
-    line-height: 80px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 360px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 48px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 900px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 240px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 880px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
+    margin-right: 100px;
   }
   .third-block {
     margin-top: 400px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 108px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
+    padding-bottom: 16px;
   }
 }
-@media only screen and (min-width: 2450px) and (max-width: 2580px) {
-  .main {
-    background-size: cover;
-  }
+@media screen and (min-width: 2255px) {
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 120px;
+    padding: 40px 0px 0 200px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
   .first-block-head img {
-    height: 120px;
-    width: 100px;
+    height: 80px;
+    width: 63px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 460px 80px 0 120px;
+    margin: 420px 80px 0 300px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 120px;
+    font-size: 96px;
     line-height: 0px;
-    margin-block-end: 80px;
+    margin-block-end: 50px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 80px;
-    line-height: 80px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 360px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 48px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 980px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 280px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 880px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 400px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 108px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 60%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 2581px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 120px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 460px 80px 0 120px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 120px;
-    line-height: 0px;
-    margin-block-end: 80px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 80px;
-    line-height: 80px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 360px;
-    height: 110px;
-    cursor: pointer;
-    font-size: 48px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 1080px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 120px 0 0px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
     font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 490px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
     color: #280309;
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 1040px;
-    padding-bottom: 48px;
+    padding-right: 0px;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
   }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  .second-block-tablet {
+    margin-top: 1100px;
   }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 108px;
-    font-weight: 700;
-    border-radius: 30px;
+  .second-block-main-img {
+    margin-left: 0;
   }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
+  .second-block-main-text {
+    margin-right: 220px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+    min-height: 900px;
+  }
+  .first-block-main button,
+  .second-block-main button {
     color: white;
-    width: 60%;
-    height: 100px;
+    background-color: #ff6381;
+    padding: 8px 24px;
     border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
+    border-radius: 30px;
+    width: 260px;
+    height: 72px;
+    cursor: pointer;
+    font-size: 26px;
     font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
+    font-weight: 500;
   }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 400px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 2306px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 200px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 80px;
+    width: 63px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 460px 80px 0 300px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 98px;
+    line-height: 0px;
+    margin-block-end: 50px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 700px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 0px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 1300px;
+  }
+  .second-block-main-img {
+    margin-left: 0;
+  }
+  .second-block-main-text {
+    margin-right: 220px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+    min-height: 900px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 260px;
+    height: 72px;
     cursor: pointer;
+    font-size: 26px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 400px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 2516px) {
+  .first-block-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 0 200px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    color: #280309;
+    font-weight: 400;
+  }
+  .first-block-head img {
+    height: 140px;
+    width: 110px;
+  }
+  .first-block-main {
+    font-family: "Rokkitt", sans-serif;
+    margin: 440px 80px 0 300px;
+    color: #280309;
+  }
+  .first-block-main h1 {
+    font-size: 110px;
+    line-height: 0px;
+    margin-block-end: 60px;
+    font-weight: 900;
+  }
+  .first-block-main h2 {
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 16px;
+  }
+  .first-block-main br {
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 500px;
+  }
+  .second-block-main-img div:nth-child(2) img {
+    right: 200px;
+    left: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 0px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .second-block-tablet {
+    margin-top: 1500px;
+  }
+  .second-block-main-img {
+    margin-left: 0;
+  }
+  .second-block-main-text {
+    margin-right: 220px;
+    padding: 0;
+  }
+  .second-block-main-img img {
+    max-width: 175%;
+    min-height: 900px;
+  }
+  .first-block-main button,
+  .second-block-main button {
+    color: white;
+    background-color: #ff6381;
+    padding: 8px 24px;
+    border: 1px solid #ff6381;
+    border-radius: 30px;
+    width: 300px;
+    height: 84px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-weight: 500;
+  }
+  .second-block-main button {
+    margin-right: 100px;
+  }
+  .third-block {
+    margin-top: 400px;
+    padding-bottom: 16px;
   }
 }
