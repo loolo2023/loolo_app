@@ -12418,7 +12418,7 @@ form p {
     display: block;
   }
   .second-block-main-img div:nth-child(1) img {
-    left: 0; 
+    left: 50%; 
   }
   .second-block-main-img div:nth-child(2) img{
     right: 0;
@@ -12473,76 +12473,45 @@ form p {
     margin-right: 100px;
   }
 }
-
-@media only screen and (min-width: 1220px) and (max-width: 1279px) {
-  .main {
-    background-size: cover;
-  }
+@media screen and (min-width: 1269px){
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 60px;
+    padding: 40px 0px 0 60px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
   .first-block-head img {
-    height: 80px;
-    width: 60px;
+    height: 60px;
+    width: 45px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 180px 60px 0 60px;
+    margin: 230px 80px 0 100px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 64px;
+    font-size: 62px;
     line-height: 0px;
-    margin-block-end: 42px;
+    margin-block-end: 30px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 36px;
+    font-size: 38px;
     line-height: 40px;
-    margin-bottom: 20px;
-    font-weight: 900;
+    margin-bottom: 16px;
   }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 180px;
-    height: 60px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
+  .first-block-main br{
+    display: block;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
+  .second-block-main-img div:nth-child(1) img {
+    left: 220px; 
   }
-
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 470px;
+  .second-block-main-img div:nth-child(2) img{
+    right: 0;
   }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 80px 0 100px;
-    text-align: start;
-  }
-
   .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
     font-weight: 900;
@@ -12551,117 +12520,30 @@ form p {
     margin-block-start: 0px;
     line-height: normal;
     padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
+    padding-right: 39px;
   }
   .second-block-main p {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: justify;
+    
   }
-  .third-block {
-    margin-top: 160px;
-    padding-bottom: 16px;
+  .second-block-tablet {
+    margin-top: 550px;
   }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
+  .second-block-main-img {
+  margin-left: 61px;
 }
-@media only screen and (min-width: 1280px) and (max-width: 1346px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 60px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 200px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 66px;
-    line-height: 0px;
-    margin-block-end: 46px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 24px;
-    font-weight: 900;
-  }
+.second-block-main-text {
+  padding: 0;
+}
+.second-block-main-img img{
+  max-width: 175%;
+}
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -12670,222 +12552,139 @@ form p {
     border: 1px solid #ff6381;
     border-radius: 30px;
     width: 180px;
-    height: 60px;
+    height: 50px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
+  .second-block-main button{
+    margin-right: 100px;
   }
-
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 450px;
+  .third-block {
+    margin-top: 175px;
+    padding-bottom: 16px;
   }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 100px 0 80px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
+  form p {
+    color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 28px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 32px 56px 24px 56px;
+    text-align: center;
   }
-  .second-block-main-text {
+  #contactForm {
+    background-image: url("/image/Group\ 16.png");
+    width: 513px;
+    height: 942px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #dec1c7;
+    border-radius: 30px;
+    background: linear-gradient(226deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+  }
+  .form-inputs {
+    background-color: #fbfbfb;
+    height: 778px;
+    width: 400px;
+    border-radius: 30px;
+    position: absolute;
+    margin: 0px 56px 32px 56px;
+    border-radius: 30px;
+    background: #f9f6f6;
+    box-shadow: 0px 4px 20px 0px rgba(208, 163, 142, 0.6);
+  }
+  .form-group {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
+    padding: 0 24px;
   }
-  .second-block-main p {
+  .form-group label {
     color: #000;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-align: justify;
+    padding: 8px 0px 4px 0;
   }
-  .third-block {
-    padding-top: 0px;
-    margin-top: 160px;
-    padding-bottom: 16px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+  .form-group input {
+    width: 352px;
+    height: 38px;
     border-radius: 30px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    padding: 0 24px 0 16px;
   }
-
-  .close {
-    display: block;
-    position: relative;
+  
+  .active {
     border-radius: 30px;
     background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
+    margin-top: 12px;
+    padding: 0px 24px;
     color: white;
-    width: 40%;
-    height: 80px;
+    width: 352px;
+    height: 56px;
     border: 1px solid #ff6381;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
+    position: absolute;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
   }
-  .close:hover,
-  .close:focus {
+  .active:hover {
     background: #e94666;
     border: 1px solid #e94666;
     transition: background 0.3s, border 0.3s;
-    cursor: pointer;
   }
-}
-@media only screen and (min-width: 1347px) and (max-width: 1381px) {
-  .main {
-    background-size: 100% 100%;
-  }
- 
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 60px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 200px 60px 0 80px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 68px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 44px;
-    line-height: 48px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
+  .disabled {
     border-radius: 30px;
-    width: 220px;
-    height: 70px;
+    margin-top: 12px;
+    padding: 0px 24px;
+    color: white;
+    width: 352px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa1b3;
+    border: 1px solid #ffa1b3;
+    cursor: not-allowed;
+  }
+  .form-group select {
+    width: 352px;
+    height: 38px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 0px #ececec;
+    border: 1px solid #eaeaea;
+    padding: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/image/Vector.png");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 10px;
     cursor: pointer;
-    font-size: 26px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 450px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
-  }
-  .second-block-main p {
+  .form-group select option {
     color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 150px;
-    padding-bottom: 16px;
+    background: white;
+    cursor: pointer;
   }
   .error-message {
     color: red;
     font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     padding: 2px 0 2px 15px;
   }
   .modal {
@@ -12907,16 +12706,16 @@ form p {
     max-height: 80%;
     overflow: auto;
     background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
     background-repeat: no-repeat;
+    padding: 109px 0px 108px 0px;
     text-align: center;
     color: #000;
     font-family: "Rokkitt", sans-serif;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
     border-radius: 30px;
   }
-
+  
   .close {
     display: block;
     position: relative;
@@ -12925,10 +12724,10 @@ form p {
     margin-top: 24px;
     padding: 12px 24px;
     color: white;
-    width: 40%;
-    height: 80px;
+    width: 60%;
+    height: 64px;
     border: 1px solid #ff6381;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 500;
     font-family: "Noto Sans Hebrew", sans-serif;
     align-items: center;
@@ -12944,40 +12743,78 @@ form p {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 1382px) and (max-width: 1429px) {
-  .main {
-    background-size: cover;
-  }
+@media screen and (min-width: 1345px){
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 40px 0 60px;
+    padding: 40px 0px 0 60px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
   .first-block-head img {
-    height: 80px;
-    width: 60px;
+    height: 60px;
+    width: 45px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 240px 60px 0 80px;
+    margin: 250px 80px 0 100px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 72px;
+    font-size: 66px;
     line-height: 0px;
-    margin-block-end: 50px;
+    margin-block-end: 30px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 48px;
-    line-height: 50px;
-    margin-bottom: 30px;
-    font-weight: 900;
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 16px;
   }
+  .first-block-main br{
+    display: block;
+  }
+  .second-block-main-img div:nth-child(1) img {
+    left: 150px; 
+  }
+  .second-block-main-img div:nth-child(2) img{
+    right: 0;
+  }
+  .second-block-main h3 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
+  }
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+    
+  }
+  .second-block-tablet {
+    margin-top: 550px;
+  }
+  .second-block-main-img {
+  margin-left: 61px;
+}
+.second-block-main-text {
+  margin-right: 170px;
+  padding: 0;
+}
+.second-block-main-img img{
+  max-width: 175%;
+}
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -12985,299 +12822,93 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 220px;
-    height: 70px;
+    width: 180px;
+    height: 50px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .first-block-main button:hover,
-  .second-block-main button:hover {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-  }
-
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 450px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 140px 0 66px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 500px;
-    padding-bottom: 30px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
+  .second-block-main button{
+    margin-right: 100px;
   }
   .third-block {
-    margin-top: 180px;
+    margin-top: 175px;
     padding-bottom: 16px;
   }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 80px;
-    border: 1px solid #ff6381;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
 }
-@media only screen and (min-width: 1430px) and (max-width: 1493px) {
-  .main {
-    background-size: cover;
-  }
+@media screen and (min-width: 1449px){
   .first-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 30px 0 80px;
+    padding: 40px 0px 0 60px;
     font-family: "Noto Sans Hebrew", sans-serif;
     color: #280309;
     font-weight: 400;
   }
   .first-block-head img {
-    height: 80px;
-    width: 60px;
+    height: 60px;
+    width: 45px;
   }
   .first-block-main {
     font-family: "Rokkitt", sans-serif;
-    margin: 240px 80px 0 80px;
+    margin: 250px 80px 0 100px;
     color: #280309;
   }
   .first-block-main h1 {
-    font-size: 74px;
+    font-size: 66px;
     line-height: 0px;
-    margin-block-end: 50px;
+    margin-block-end: 30px;
     font-weight: 900;
   }
   .first-block-main h2 {
-    font-size: 42px;
-    line-height: 58px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 220px;
-    height: 76px;
-    cursor: pointer;
-    font-size: 28px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 490px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 80px 0 60px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 580px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 160px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 30%;
-    height: 80px;
-    border: 1px solid #ff6381;
     font-size: 38px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
+    line-height: 40px;
+    margin-bottom: 16px;
   }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
+  .first-block-main br{
+    display: block;
   }
-}
-@media only screen and (min-width: 1494px) and (max-width: 1559px) {
-  .main {
-    background-size: cover;
+  .second-block-main-img div:nth-child(1) img {
+    left: 150px; 
   }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px 30px 0 80px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
+  .second-block-main-img div:nth-child(2) img{
+    right: 0;
   }
-  .first-block-head img {
-    height: 80px;
-    width: 60px;
-  }
-  .first-block-main {
+  .second-block-main h3 {
     font-family: "Rokkitt", sans-serif;
-    margin: 240px 80px 0 100px;
+    font-weight: 900;
+    font-size: 26px;
     color: #280309;
+    margin-block-start: 0px;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-right: 39px;
   }
-  .first-block-main h1 {
-    font-size: 76px;
-    line-height: 0px;
-    margin-block-end: 50px;
-    font-weight: 900;
+  .second-block-main p {
+    color: #000;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+    
   }
-  .first-block-main h2 {
-    font-size: 44px;
-    line-height: 58px;
-    margin-bottom: 30px;
-    font-weight: 900;
+  .second-block-tablet {
+    margin-top: 550px;
   }
+  .second-block-main-img {
+  margin-left: 61px;
+}
+.second-block-main-text {
+  margin-right: 170px;
+  padding: 0;
+}
+.second-block-main-img img{
+  max-width: 175%;
+}
   .first-block-main button,
   .second-block-main button {
     color: white;
@@ -13285,255 +12916,19 @@ form p {
     padding: 8px 24px;
     border: 1px solid #ff6381;
     border-radius: 30px;
-    width: 220px;
-    height: 76px;
+    width: 180px;
+    height: 50px;
     cursor: pointer;
-    font-size: 28px;
+    font-size: 18px;
     font-family: "Noto Sans Hebrew", sans-serif;
     font-weight: 500;
   }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 540px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 120px 0 80px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 580px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
+  .second-block-main button{
+    margin-right: 100px;
   }
   .third-block {
-    margin-top: 160px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 1560px) and (max-width: 1609px) {
-  .main {
-    background-size: cover;
-  }
-  .first-block-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 40px 0 100px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    color: #280309;
-    font-weight: 400;
-  }
-  .first-block-head img {
-    height: 100px;
-    width: 80px;
-  }
-  .first-block-main {
-    font-family: "Rokkitt", sans-serif;
-    margin: 240px 80px 0 100px;
-    color: #280309;
-  }
-  .first-block-main h1 {
-    font-size: 78px;
-    line-height: 0px;
-    margin-block-end: 58px;
-    font-weight: 900;
-  }
-  .first-block-main h2 {
-    font-size: 48px;
-    line-height: 60px;
-    margin-bottom: 30px;
-    font-weight: 900;
-  }
-  .first-block-main button,
-  .second-block-main button {
-    color: white;
-    background-color: #ff6381;
-    padding: 8px 24px;
-    border: 1px solid #ff6381;
-    border-radius: 30px;
-    width: 240px;
-    height: 80px;
-    cursor: pointer;
-    font-size: 30px;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-weight: 500;
-  }
-  .second-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: 520px;
-  }
-  .second-block-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 120px 0 80px;
-    text-align: start;
-  }
-
-  .second-block-main h3 {
-    font-family: "Rokkitt", sans-serif;
-    font-weight: 900;
-    font-size: 41px;
-    color: #280309;
-    margin-block-start: 0px;
-    line-height: normal;
-    padding-bottom: 24px;
-  }
-  .second-block-main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 630px;
-    padding-bottom: 48px;
-  }
-  .second-block-main p {
-    color: #000;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-  }
-  .third-block {
-    margin-top: 160px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .modal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 80%;
-    overflow: auto;
-    background-image: url("/image/Frame\ 122.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #000;
-    font-family: "Rokkitt", sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    border-radius: 30px;
-  }
-
-  .close {
-    display: block;
-    position: relative;
-    border-radius: 30px;
-    background: #ff6381;
-    margin-top: 24px;
-    padding: 12px 24px;
-    color: white;
-    width: 40%;
-    height: 100px;
-    border: 1px solid #ff6381;
-    font-size: 44px;
-    font-weight: 500;
-    font-family: "Noto Sans Hebrew", sans-serif;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  .close:hover,
-  .close:focus {
-    background: #e94666;
-    border: 1px solid #e94666;
-    transition: background 0.3s, border 0.3s;
-    cursor: pointer;
+    margin-top: 175px;
+    padding-bottom: 16px;
   }
 }
 @media only screen and (min-width: 1610px) and (max-width: 1645px) {
