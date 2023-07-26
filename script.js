@@ -70,7 +70,7 @@ function handleFormSubmit(event) {
     };
     axios
       .post(
-        `https://script.google.com/macros/s/AKfycbxWGDzagVCdjZciDhgMK4L2EjaNgsr_CXdEEovAv2pAPwxfyEuUX3nDOklGVZDeu7hm/exec/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.email}&p8=${formData.social}`
+        `https://script.google.com/macros/s/AKfycbxjKCvrtY8hOdUZdQdJw6t0rtfk0vpZH6gLJa23TBQHnDPLozKDj-SMk4xSNAupH8sAXA/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.email}&p8=${formData.social}`
       )
       .then((response) => {
         console.log("Data saved to Google Sheets!");
