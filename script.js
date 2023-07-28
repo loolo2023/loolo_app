@@ -65,12 +65,13 @@ function handleFormSubmit(event) {
       price: document.getElementById("input4").value,
       location: document.getElementById("input5").value,
       birthdate: document.getElementById("input6").value,
-      email: document.getElementById("input7").value,
-      social: document.getElementById("input8").value,
+      phone: document.getElementById("input7").value,
+      email: document.getElementById("input8").value,
+      social: document.getElementById("input9").value,
     };
     axios
       .post(
-        `https://script.google.com/macros/s/AKfycbxjKCvrtY8hOdUZdQdJw6t0rtfk0vpZH6gLJa23TBQHnDPLozKDj-SMk4xSNAupH8sAXA/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.email}&p8=${formData.social}`
+        `https://script.google.com/macros/s/AKfycbw8jU9Y3SzprezFkT-VjGiMa0_H4bxkGar-gzef7MsgIoGZ6BGKKM4NpiysaxQ66HLBZQ/exec?p1=${formData.gender}&p2=${formData.lookingForGender}&p3=${formData.payer}&p4=${formData.price}&p5=${formData.location}&p6=${formData.birthdate}&p7=${formData.phonel}&p8=${formData.email}&p9=${formData.social}`
       )
       .then((response) => {
         console.log("Data saved to Google Sheets!");
